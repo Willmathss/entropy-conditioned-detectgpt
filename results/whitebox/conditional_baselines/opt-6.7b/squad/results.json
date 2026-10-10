@@ -1,0 +1,88 @@
+{
+  "dataset": "squad",
+  "methods": {
+    "AdaDetectGPT-exact": {
+      "auc": 0.83532,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.092,
+          "type_i_error": 0.004
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.388,
+          "type_i_error": 0.062
+        }
+      },
+      "pauc": 0.6117333333333334
+    },
+    "Fast-DetectGPT-10000": {
+      "auc": 0.803148,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.082,
+          "type_i_error": 0.01
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.346,
+          "type_i_error": 0.058
+        }
+      },
+      "pauc": 0.5817435897435898
+    },
+    "Fast-DetectGPT-analytic": {
+      "auc": 0.803272,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.082,
+          "type_i_error": 0.01
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.344,
+          "type_i_error": 0.058
+        }
+      },
+      "pauc": 0.5826051282051282
+    },
+    "Water-Full": {
+      "auc": 0.848132,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.126,
+          "type_i_error": 0.008
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.448,
+          "type_i_error": 0.066
+        }
+      },
+      "pauc": 0.629251282051282
+    }
+  },
+  "model": "opt-6.7b",
+  "protocol": {
+    "ada_beta_source": "data/fits/whitebox/opt-6.7b/squad/results.json",
+    "ada_conditional_moments": "exact full-vocabulary",
+    "calibration_source": "cache/whitebox/train",
+    "fast_analytic": "exact full-vocabulary conditional moments",
+    "fast_mc_samples": 10000,
+    "name": "frozen independent test",
+    "no_test_fitting_or_selection": true,
+    "test_human_machine_source": "cache/whitebox/test",
+    "water_basis_frozen_from_development": true,
+    "water_candidate_samples_used": 0,
+    "water_conditional_moments": "exact full-vocabulary",
+    "water_theta_source": "data/fits/whitebox/opt-6.7b/squad/results.json"
+  }
+}

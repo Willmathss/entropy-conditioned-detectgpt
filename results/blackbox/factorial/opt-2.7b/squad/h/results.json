@@ -1,0 +1,98 @@
+{
+  "builder_version": "2026.09.10-v1-blackbox-factorial-ltheta-rescore",
+  "dataset": "squad",
+  "denominator_diagnostics": {
+    "calibration_mean": 0.9826667294979196,
+    "human_mean": 0.9658745746234493,
+    "machine_mean": 0.9939763470739925
+  },
+  "exact_request_id": "70d242a28b329f76d14c10bafa1fadc364425d1519754e39090dd47e0486cbbf",
+  "frozen_factorial_result": "cache/blackbox/factorial/nonllama/opt-2.7b/squad/h/results.json",
+  "label": "B0+H",
+  "metrics": {
+    "auroc": 0.83588,
+    "conformal_fpr_001": 0.0,
+    "conformal_fpr_005": 0.024,
+    "conformal_power_001": 0.11,
+    "conformal_power_005": 0.33,
+    "pauc_001": 0.18479999999999996,
+    "pauc_005": 0.33024000000000003,
+    "pr_auc": 0.846026828316312,
+    "tpr_at_fpr_001": 0.266,
+    "tpr_at_fpr_005": 0.454
+  },
+  "modules": {
+    "covariance_shrinkage": false,
+    "entropy_conditioning": true,
+    "smoothness": false
+  },
+  "n_calibration": 500,
+  "n_human": 500,
+  "n_machine": 500,
+  "protocol": {
+    "access": "black-box fixed GPT-J/GPT-Neo proxies",
+    "calibration_scores_recomputed_under_T_theta": true,
+    "calibration_used_for_fitting_selection_or_orientation": false,
+    "deployment_score": "T_theta(X)=theta^T U_X",
+    "direction": "unchanged frozen factorial theta",
+    "hyperparameter_selection": "unchanged train-domain-only factorial selection",
+    "old_score_reconstructed_only_for_validation": "S_theta(X)=T_theta(X)/sqrt(theta^T V_X theta)",
+    "proxy_or_source_model_loaded": false,
+    "test_used_for_fitting_selection_or_orientation": false,
+    "text_scope": "unchanged frozen full text"
+  },
+  "run_signature": "f5015c1c8e9c041e18006448b565d890adff136afed6e902c3c3fc7b414a3f3e",
+  "schema_version": 1,
+  "selected_hyperparameters": {
+    "covariance_shrinkage": 0.0,
+    "j_bases": 8,
+    "k_bases": 6,
+    "ridge_lambda": 0.01,
+    "smooth_lambda": 0.0,
+    "source_j_bases": 8,
+    "source_k_bases": 6
+  },
+  "signature_payload": {
+    "adapter_sha256": "7e5f86bfe1fc33f6b287b1aa0e36e01c39138c06c3cf48b70f008e6308ad90c5",
+    "dataset": "squad",
+    "frozen_model_sha256": "57359a1c46ba13f7d2545b0e400208086ca00251c3d6088c1a70b74c7dbe1c8a",
+    "frozen_result_sha256": "19f854d8c3c6ccd24df67fec9c277cc503f5138d5913a705914fd9e592723acf",
+    "frozen_score_sha256": "052ced7b6a3dd78f64bb36d6cf9fc250f3f59a2d616e9656ef918eb5bce8b596",
+    "score": "T_theta(X)=theta^T U_X",
+    "score_epsilon_for_reference_check": 1e-08,
+    "source_model": "opt-2.7b",
+    "variant": "h",
+    "version": "2026.09.10-v1-blackbox-factorial-ltheta-rescore"
+  },
+  "source_basis_spec": {
+    "degree_h": 2,
+    "degree_z": 2,
+    "entropy_clip_high": 0.995,
+    "entropy_clip_low": 0.005,
+    "h_base_knots": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "j_bases": 8,
+    "k_bases": 6,
+    "z_base_knots": [
+      -14.774517890930175,
+      -5.163517333666485,
+      -3.101663975318273,
+      -1.7957209348678589,
+      -0.8475320232510567,
+      -0.18124125563104948,
+      0.0
+    ]
+  },
+  "source_model": "opt-2.7b",
+  "status": "complete",
+  "validation": {
+    "full_matches_current_ltheta_main_result": false,
+    "reconstructed_stheta_max_abs_error": 0.0
+  },
+  "variant": "h"
+}

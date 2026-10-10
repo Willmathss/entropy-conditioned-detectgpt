@@ -1,0 +1,8689 @@
+{
+  "basis_spec": {
+    "degree_h": 2,
+    "degree_z": 2,
+    "entropy_clip_high": 0.995,
+    "entropy_clip_low": 0.005,
+    "h_base_knots": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "j_bases": 8,
+    "k_bases": 6,
+    "z_base_knots": [
+      -14.774517890930175,
+      -5.163517333666485,
+      -3.101663975318273,
+      -1.7957209348678589,
+      -0.8475320232510567,
+      -0.18124125563104948,
+      0.0
+    ]
+  },
+  "domain_validation": [
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8305919999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7602599999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87912,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.795044,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8162539999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04399688720807418
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.83088,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7603639999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8788000000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7949200000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.816241,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.043888361133676494
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8314960000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.760092,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8783,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794708,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.816149,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04387590722708763
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8312320000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.760548,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8782239999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794476,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.81612,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.0437092360949033
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8310839999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.76058,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.878228,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7945800000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8161179999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04367490167132604
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8314759999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7593759999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8805,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7931079999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8161149999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.045083324844115036
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8317479999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7594559999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.880296,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.792944,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8161109999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04502979265997126
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8314519999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7601239999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.878092,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794592,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.816065,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04380237923903223
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.832076,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7588760000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879888,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7925559999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8158489999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04514641632510822
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8316760000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.759252,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879816,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7926320000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8158440000000001,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04495698059256204
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8317479999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7592120000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879836,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.792548,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815836,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.044993888651682405
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.83234,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7580119999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8783319999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.79464,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815831,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.044640277004068855
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8322959999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.757936,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8783000000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794616,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8157869999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.044652468274441456
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8323480000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7577400000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.878264,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794692,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8157610000000001,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04469925273424602
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8313959999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7596959999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877896,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794012,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8157499999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04393607342492045
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8315559999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.758804,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877484,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7950959999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815735,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04396120484017698
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.832044,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75868,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879832,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.792348,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8157260000000001,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.045212369325218923
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8311759999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7599560000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8777440000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7938799999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8156889999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04379631823566909
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.831164,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75996,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8777400000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.793868,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8156829999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.043794062280176786
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.83178,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.758796,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877456,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7945519999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815646,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04403879367103509
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.831668,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75874,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8774040000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794456,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8155670000000002,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04403986551977654
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8309279999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.760368,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876828,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7941119999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8155589999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04329005893966882
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.830608,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.76036,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876872,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.793916,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815439,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.043304294879376565
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.830584,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7605160000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8764519999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7940919999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815411,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04308185347684099
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.830752,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.759012,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877624,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7941719999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8153900000000001,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04398222427299465
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.830524,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7605519999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876408,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794068,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815388,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04305249177457679
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.830608,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.759196,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877572,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.793972,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815337,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04391660782665256
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8305880000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.759176,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877552,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7939600000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8153190000000001,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04391563497206889
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.83302,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7559,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879816,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7925240000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815315,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.046161179393512025
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8329759999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.755892,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879848,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7925439999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8153149999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04616825310751966
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8299359999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.760372,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8767639999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7940800000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815288,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04318393451273277
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8304479999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.759568,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877168,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.79396,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815286,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04364218706710282
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8299199999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7603080000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876708,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794152,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815272,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04317418701029584
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8309599999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.758276,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87822,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7935439999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8152499999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04452306175455594
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.830928,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7574120000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877672,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7948359999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815212,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.044452968494803576
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.830996,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7583439999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.878164,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.793328,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8152079999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04451114404281248
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8317720000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7577600000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8795759999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.791712,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8152050000000001,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04546960579332083
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8309679999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75838,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8781519999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.793308,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815202,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04449538227726553
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8313920000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7567840000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8782119999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794384,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8151930000000001,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.044940037060509794
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8314719999999998,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7581359999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879492,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.791636,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8151839999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.045303974483482154
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.831424,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7582040000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8794479999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.791616,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815173,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.045265245597477924
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.832728,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.755564,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879712,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7925960000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.81515,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.046196353319282686
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.829572,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.758252,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8779079999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794344,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.815019,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04420623271666559
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.829384,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.757712,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.878204,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.794604,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.814976,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04443971908102028
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8317599999999998,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7545120000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8794799999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7922319999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8144959999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04640779003572563
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8308280000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.755748,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.879136,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7910999999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.814203,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04594404408625784
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8307800000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7558959999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8790479999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7907839999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8141269999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04590153499611971
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.830756,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75592,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8790479999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.790744,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8141170000000001,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04589683818085944
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8297,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.750892,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877316,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7920759999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8124959999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.046662723966781026
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.829836,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7503559999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877448,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7917719999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8123529999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04693138577753701
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.829288,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751864,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7910479999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8123,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.046311013117831944
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8292200000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751984,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876912,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.790888,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8122510000000001,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04625332674521911
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.829192,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751996,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876932,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7908759999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.812249,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04625522909898948
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8293280000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751228,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877116,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7907679999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.81211,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04659489899119861
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.82924,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751284,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8770720000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7906239999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.812055,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.046569670162027184
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.82922,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7513000000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8770560000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.79062,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.812049,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.046557481493311036
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8297760000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.74792,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.877448,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.790244,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8113469999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04789908970951327
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.829212,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7489600000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87702,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.789452,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.811161,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.0474433650893357
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8291879999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.749068,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876984,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.789264,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.811126,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04741480363768261
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8291520000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.749092,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.876976,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7892520000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 8,
+      "k_bases": 6,
+      "mean_validation_auc": 0.811118,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04740213062721971
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8292759999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7509199999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8755519999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78652,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8105669999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04666127871158266
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8293039999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751052,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8753799999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786116,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8104629999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.046614492113504734
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.829244,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.750604,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8753439999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786008,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8103,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.046752836149264725
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8293879999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75044,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8754200000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7858999999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.810287,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.046860284538188655
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8274800000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7528919999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873228,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.787512,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.810278,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04491674258002248
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.829008,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.750776,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.875316,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78574,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.81021,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04669940389341174
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.82896,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7507839999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.875292,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785732,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8101919999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04668471347239911
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.827252,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7529079999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873076,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786872,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8100269999999998,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04491829029471181
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.829612,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7497320000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.875132,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785328,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8099510000000001,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.047084333307375166
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8293040000000002,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.750108,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8752320000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785116,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.80994,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04699497036917893
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8292959999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7501,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87528,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785048,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809931,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.047022354460405306
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.827356,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752724,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8730960000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7865359999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809928,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04503724760684211
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.827932,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752336,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8730680000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786368,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809926,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04522918212835605
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8272479999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752716,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87304,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78662,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809906,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04499883558493485
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.82748,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752216,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8733040000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786372,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8098430000000001,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04530485972828967
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.828472,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75142,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87322,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7861399999999998,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8098129999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04565840368431646
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.82796,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7518159999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873128,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786024,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8097319999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.045463295964987
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8279399999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7518480000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873132,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7859640000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8097209999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.045460329024326215
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.830448,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7469239999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8749119999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7864680000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809688,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04786344082909208
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8304440000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7468520000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8748199999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7864079999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809631,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04786255650297002
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.830616,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7462920000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.874912,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786516,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8095840000000001,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.0480835275744199
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.826212,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752724,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871312,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7875840000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809458,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04416965152681193
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8297879999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.747876,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873516,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7865679999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809437,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04699209860178622
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.829792,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.747792,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873516,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786552,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8094129999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04702199275870811
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8298000000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7472,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873416,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78664,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809264,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.047172534042597296
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.82738,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751648,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871972,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785892,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809223,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04507307909384491
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8270799999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752156,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871776,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785804,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809204,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04482421461665557
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.826824,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7522639999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871476,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786228,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809198,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04460472625182227
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.827016,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752264,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8717159999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785776,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809193,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04476620317829061
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.826204,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7527919999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871256,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7863800000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809158,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04427948441434253
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.826112,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752632,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871056,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786816,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8091539999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04419602384830566
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.826516,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752104,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8714679999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786452,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809135,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.044594157408790636
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.826132,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.752796,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871116,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7864800000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809131,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.044209371891036846
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8292240000000002,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.747592,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872484,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786728,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.809007,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04665354403472476
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8289719999999998,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7478239999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872524,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7864519999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808943,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04659689271829185
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.828948,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.747848,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872544,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786432,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808943,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.046595684810935026
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.830056,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.746184,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.874328,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7850359999999998,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8089009999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.048039532335359
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8300480000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.746204,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.874348,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.784992,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808898,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.048044405168552164
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.830132,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.745924,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8743080000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7851119999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808869,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04811664463571834
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.82976,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7470079999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873388,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785312,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808867,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04738367544840739
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8297760000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.74696,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873404,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785308,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808862,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.047407050319546354
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8298559999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.746672,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873368,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785456,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808838,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04747948689697478
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.829428,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7470840000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8728159999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785612,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808735,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.047090587541460935
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8292999999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7473799999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8728480000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.785388,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808729,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04701838545718051
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8292879999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7473679999999998,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872844,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7853839999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8087209999999998,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04702012015084611
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.830576,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.743644,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8742880000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7859799999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808622,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04880779220575342
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.829936,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7443439999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873392,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.786388,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.808515,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04815445394768798
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.82962,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.744492,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87286,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7864239999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8083489999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.047886706495644485
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8223839999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7528560000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8727239999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.781988,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807488,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04503479747928256
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8222879999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.753004,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872468,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7820119999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8074429999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.044885869524829314
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.82216,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7531279999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8725080000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.781836,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8074080000000001,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04487726898999097
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8221720000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.753104,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872512,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.781844,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807408,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.044885824666591564
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.822128,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7532760000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872056,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.782068,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807382,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.044633027636493586
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8221199999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7532120000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8721439999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7820159999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807373,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04469101649101299
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.822632,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.75152,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8734279999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7818479999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8073569999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04573615177296837
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.82268,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751468,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8734159999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78186,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807356,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04575003589069624
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.822852,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.751064,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873436,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78196,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807328,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04588146510302392
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824228,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.74822,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8740599999999998,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.782372,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8072199999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.047051250695385294
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824232,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.748216,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873972,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7824,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807205,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04701792520943474
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8237279999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7491159999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872736,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.783212,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8071979999999999,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.046144656418701406
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.823672,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.748964,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8728279999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7831440000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807152,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.046228981126561694
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8240719999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7480960000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8739920000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.782384,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807136,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04705033457904418
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824068,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.74806,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.874024,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7823720000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.807131,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04707421411983424
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824232,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.747932,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873872,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7823,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8070839999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04708475498502671
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8241480000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7478400000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873856,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7823,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8070360000000001,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04710034250406252
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.82382,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7474799999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872804,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7831279999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.806808,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.046705016175995526
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824148,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.74682,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873832,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7821919999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.806748,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04742727426281213
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824172,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.746764,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8738279999999998,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7822119999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.806744,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.04744317038310146
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8243240000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7464120000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873652,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.782152,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.806635,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.047514224259688785
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.825284,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.744764,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8730120000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.782492,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.806388,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.04786531203282817
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.825232,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.744528,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8730359999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7824719999999998,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.806317,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.04794701954240743
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8252800000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.74344,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8729079999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7824599999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.806022,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.048260444796955605
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.828352,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.737836,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8716839999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7832840000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8052889999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04993577181740554
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.828352,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.737804,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871712,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.783272,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.805285,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.04995720755806914
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8283879999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.737604,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871688,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7832760000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.805239,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05002052677651443
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8285800000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7366440000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871648,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.784016,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8052220000000001,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.0502758544432613
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.828448,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.736448,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8718239999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.783824,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8051360000000001,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05040580664963113
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.828208,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.737496,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8717759999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.783056,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.805134,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.050089676501251186
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8282039999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7374799999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8717759999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7830679999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.805132,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.0500932957590135
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.828112,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7374559999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8717799999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.783156,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8051259999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05008248624020178
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.827472,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7364839999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8718440000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7823320000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.804533,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05044927958851349
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.827416,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7365959999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87182,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78224,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.8045180000000001,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.050407303478761926
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.827396,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7365919999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8718199999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7822640000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.804518,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05040373021910184
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8276799999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7352879999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871964,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7830520000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 6,
+      "k_bases": 6,
+      "mean_validation_auc": 0.804496,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.050840488982699585
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.824032,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7404200000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8726919999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780628,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.804443,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.049263966740407686
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8239319999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.740696,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8727240000000002,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780416,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8044420000000001,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04920135368056456
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8239239999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.740656,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8727000000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780428,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.804427,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.04920372948263174
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8252600000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.737568,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87398,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78052,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.804332,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.05077713099417887
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8252680000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.737564,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8739720000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780512,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8043290000000001,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.05077746518880205
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.825264,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.73742,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8740079999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780424,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.804279,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.0508470514681038
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.825272,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7373959999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8739880000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780444,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8042750000000001,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.0508465671899294
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8252839999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.737232,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873896,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7805960000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.804252,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.05085252819673766
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.82532,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7370680000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873864,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7804879999999998,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8041849999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.05091191109160998
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.824368,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.738376,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8723799999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.781128,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.804063,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.0498003556915008
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8252599999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7361159999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87352,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780368,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8038159999999999,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.05111651263535104
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.825132,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.736308,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.873544,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7801960000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.803795,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.051067598680572396
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8251199999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7363199999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8735519999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.78018,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8037929999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.051066962186916885
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824308,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7379119999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8727399999999998,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.779872,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.803708,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.05021714233207619
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824292,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.73788,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8727199999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.77988,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8036929999999999,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.05021816272027481
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.824348,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7376,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872772,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.779944,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.803666,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.050326022095929644
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.825756,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7347239999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872968,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780612,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8035150000000001,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.0,
+      "std_validation_auc": 0.05141772646665741
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8257680000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.734704,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8729319999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7806519999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.803514,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.001,
+      "std_validation_auc": 0.05140911004870633
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8247799999999998,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.735448,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.872224,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780396,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.803212,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.050843790968022815
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8255839999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.733748,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8727039999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.780472,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.803127,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.01,
+      "std_validation_auc": 0.051652614754724636
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8246600000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7305280000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8719480000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7779960000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8012830000000002,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.05265116510581697
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8245439999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7307839999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.87194,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.77786,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8012819999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.05256479738380056
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.824568,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.730752,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.871932,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.777864,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.8012790000000001,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.052575050841630215
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.824792,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.72856,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8715959999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.778716,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.800916,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 0.1,
+      "std_validation_auc": 0.05313651407459844
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.820372,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7243640000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.867352,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.771704,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.7959480000000001,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05340202145986608
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8203959999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.724232,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.867396,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7717640000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.795947,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.053456926389383784
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8203720000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7243480000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8673280000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7717120000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.7959400000000001,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05339845413492792
+    },
+    {
+      "covariance_shrinkage": 0.0,
+      "folds": [
+        {
+          "auc": 0.8206399999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.722704,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.867516,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.772168,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.7957569999999998,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05399467450591769
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.820156,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7234919999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.867092,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7714799999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.7955549999999999,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05360837892531356
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.820164,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.723468,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.867096,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.771488,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.7955540000000001,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05361779932074796
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.8201719999999999,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7233480000000001,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.867052,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.771544,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.795529,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05363812534941911
+    },
+    {
+      "covariance_shrinkage": 0.05,
+      "folds": [
+        {
+          "auc": 0.820576,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7218439999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.867116,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.771964,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.795375,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05416812799977495
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.820136,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.720772,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8665440000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.770628,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.79452,
+      "ridge_lambda": 0.0001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05443627283347019
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.820112,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.720792,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8665400000000001,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7706040000000001,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.794512,
+      "ridge_lambda": 1e-05,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.054427988314836716
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8202,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7205679999999999,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.866556,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.7706439999999999,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.794492,
+      "ridge_lambda": 0.001,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.054515149820944325
+    },
+    {
+      "covariance_shrinkage": 0.2,
+      "folds": [
+        {
+          "auc": 0.8207520000000001,
+          "validation_domain": "c4"
+        },
+        {
+          "auc": 0.7189,
+          "validation_domain": "pubmed"
+        },
+        {
+          "auc": 0.8665479999999999,
+          "validation_domain": "writing"
+        },
+        {
+          "auc": 0.770988,
+          "validation_domain": "xsum"
+        }
+      ],
+      "j_bases": 4,
+      "k_bases": 4,
+      "mean_validation_auc": 0.794297,
+      "ridge_lambda": 0.01,
+      "smooth_lambda": 1.0,
+      "std_validation_auc": 0.05510918960572726
+    }
+  ],
+  "info": {
+    "candidate_samples": null,
+    "dataset": "squad",
+    "document_batch_size": 2,
+    "exact_feature_cache": "content-addressed across held-out-domain and source-model tasks",
+    "expectation_mode": "full_vocab",
+    "hyperparameter_candidates": 180,
+    "max_length": 2048,
+    "n_samples": 500,
+    "request_batch_size": 15,
+    "sampling_device": "cuda:0",
+    "scoring_device": "cuda:1",
+    "source_model": "opt-2.7b",
+    "training_domains": [
+      "c4",
+      "pubmed",
+      "writing",
+      "xsum"
+    ]
+  },
+  "method": "Water raw-z x GPT-J entropy-ECDF Tensor-Spline with regularized Rayleigh estimator",
+  "metrics": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.004,
+      0.004,
+      0.006,
+      0.006,
+      0.008,
+      0.008,
+      0.01,
+      0.01,
+      0.012,
+      0.012,
+      0.014,
+      0.014,
+      0.016,
+      0.016,
+      0.02,
+      0.02,
+      0.022,
+      0.022,
+      0.024,
+      0.024,
+      0.026,
+      0.026,
+      0.028,
+      0.028,
+      0.03,
+      0.03,
+      0.032,
+      0.032,
+      0.034,
+      0.034,
+      0.036,
+      0.036,
+      0.04,
+      0.04,
+      0.042,
+      0.042,
+      0.044,
+      0.044,
+      0.046,
+      0.046,
+      0.05,
+      0.05,
+      0.052,
+      0.052,
+      0.056,
+      0.056,
+      0.058,
+      0.058,
+      0.06,
+      0.06,
+      0.062,
+      0.062,
+      0.064,
+      0.064,
+      0.068,
+      0.068,
+      0.072,
+      0.072,
+      0.074,
+      0.074,
+      0.076,
+      0.076,
+      0.078,
+      0.078,
+      0.08,
+      0.08,
+      0.082,
+      0.082,
+      0.084,
+      0.084,
+      0.086,
+      0.086,
+      0.088,
+      0.088,
+      0.094,
+      0.094,
+      0.1,
+      0.1,
+      0.104,
+      0.104,
+      0.106,
+      0.106,
+      0.108,
+      0.108,
+      0.11,
+      0.11,
+      0.112,
+      0.112,
+      0.114,
+      0.114,
+      0.118,
+      0.118,
+      0.12,
+      0.12,
+      0.122,
+      0.122,
+      0.124,
+      0.124,
+      0.126,
+      0.126,
+      0.13,
+      0.13,
+      0.132,
+      0.132,
+      0.142,
+      0.142,
+      0.152,
+      0.152,
+      0.154,
+      0.154,
+      0.156,
+      0.156,
+      0.158,
+      0.158,
+      0.16,
+      0.16,
+      0.164,
+      0.164,
+      0.17,
+      0.17,
+      0.172,
+      0.172,
+      0.176,
+      0.176,
+      0.178,
+      0.178,
+      0.184,
+      0.184,
+      0.188,
+      0.188,
+      0.194,
+      0.194,
+      0.196,
+      0.196,
+      0.2,
+      0.2,
+      0.202,
+      0.202,
+      0.204,
+      0.204,
+      0.214,
+      0.214,
+      0.218,
+      0.218,
+      0.22,
+      0.22,
+      0.222,
+      0.222,
+      0.224,
+      0.224,
+      0.226,
+      0.226,
+      0.228,
+      0.228,
+      0.23,
+      0.23,
+      0.238,
+      0.238,
+      0.246,
+      0.246,
+      0.252,
+      0.252,
+      0.258,
+      0.258,
+      0.26,
+      0.26,
+      0.262,
+      0.262,
+      0.27,
+      0.27,
+      0.282,
+      0.282,
+      0.284,
+      0.284,
+      0.286,
+      0.286,
+      0.29,
+      0.29,
+      0.294,
+      0.294,
+      0.296,
+      0.296,
+      0.298,
+      0.298,
+      0.306,
+      0.306,
+      0.31,
+      0.31,
+      0.318,
+      0.318,
+      0.32,
+      0.32,
+      0.322,
+      0.322,
+      0.328,
+      0.328,
+      0.33,
+      0.33,
+      0.332,
+      0.332,
+      0.342,
+      0.342,
+      0.348,
+      0.348,
+      0.352,
+      0.352,
+      0.356,
+      0.356,
+      0.358,
+      0.358,
+      0.36,
+      0.36,
+      0.364,
+      0.364,
+      0.366,
+      0.366,
+      0.37,
+      0.37,
+      0.38,
+      0.38,
+      0.386,
+      0.386,
+      0.388,
+      0.388,
+      0.394,
+      0.394,
+      0.398,
+      0.398,
+      0.406,
+      0.406,
+      0.408,
+      0.408,
+      0.41,
+      0.41,
+      0.416,
+      0.416,
+      0.422,
+      0.422,
+      0.426,
+      0.426,
+      0.43,
+      0.43,
+      0.434,
+      0.434,
+      0.442,
+      0.442,
+      0.444,
+      0.444,
+      0.446,
+      0.446,
+      0.448,
+      0.448,
+      0.462,
+      0.462,
+      0.464,
+      0.464,
+      0.476,
+      0.476,
+      0.482,
+      0.482,
+      0.486,
+      0.486,
+      0.488,
+      0.488,
+      0.49,
+      0.49,
+      0.5,
+      0.5,
+      0.508,
+      0.508,
+      0.522,
+      0.522,
+      0.528,
+      0.528,
+      0.534,
+      0.534,
+      0.538,
+      0.538,
+      0.542,
+      0.542,
+      0.544,
+      0.544,
+      0.55,
+      0.55,
+      0.556,
+      0.556,
+      0.562,
+      0.562,
+      0.57,
+      0.57,
+      0.576,
+      0.576,
+      0.58,
+      0.58,
+      0.582,
+      0.582,
+      0.584,
+      0.584,
+      0.594,
+      0.594,
+      0.614,
+      0.614,
+      0.624,
+      0.624,
+      0.628,
+      0.628,
+      0.646,
+      0.646,
+      0.654,
+      0.654,
+      0.658,
+      0.658,
+      0.69,
+      0.69,
+      0.704,
+      0.704,
+      0.706,
+      0.706,
+      0.71,
+      0.71,
+      0.714,
+      0.714,
+      0.716,
+      0.716,
+      0.748,
+      0.748,
+      0.786,
+      0.786,
+      0.79,
+      0.79,
+      0.806,
+      0.806,
+      0.844,
+      0.844,
+      0.848,
+      0.848,
+      0.866,
+      0.866,
+      0.912,
+      0.912,
+      1.0
+    ],
+    "roc_auc": 0.833016,
+    "tpr": [
+      0.0,
+      0.002,
+      0.126,
+      0.126,
+      0.142,
+      0.142,
+      0.176,
+      0.176,
+      0.238,
+      0.238,
+      0.264,
+      0.264,
+      0.266,
+      0.266,
+      0.27,
+      0.27,
+      0.276,
+      0.276,
+      0.29,
+      0.29,
+      0.292,
+      0.292,
+      0.302,
+      0.302,
+      0.346,
+      0.346,
+      0.37,
+      0.37,
+      0.372,
+      0.372,
+      0.384,
+      0.384,
+      0.394,
+      0.394,
+      0.398,
+      0.398,
+      0.424,
+      0.424,
+      0.434,
+      0.434,
+      0.444,
+      0.444,
+      0.448,
+      0.448,
+      0.456,
+      0.456,
+      0.458,
+      0.458,
+      0.462,
+      0.462,
+      0.466,
+      0.466,
+      0.472,
+      0.472,
+      0.476,
+      0.476,
+      0.49,
+      0.49,
+      0.492,
+      0.492,
+      0.494,
+      0.494,
+      0.5,
+      0.5,
+      0.502,
+      0.502,
+      0.504,
+      0.504,
+      0.514,
+      0.514,
+      0.52,
+      0.52,
+      0.528,
+      0.528,
+      0.534,
+      0.534,
+      0.544,
+      0.544,
+      0.546,
+      0.546,
+      0.552,
+      0.552,
+      0.554,
+      0.554,
+      0.56,
+      0.56,
+      0.568,
+      0.568,
+      0.576,
+      0.576,
+      0.58,
+      0.58,
+      0.588,
+      0.588,
+      0.59,
+      0.59,
+      0.594,
+      0.594,
+      0.596,
+      0.596,
+      0.598,
+      0.598,
+      0.6,
+      0.6,
+      0.602,
+      0.602,
+      0.618,
+      0.618,
+      0.62,
+      0.62,
+      0.628,
+      0.628,
+      0.638,
+      0.638,
+      0.64,
+      0.64,
+      0.648,
+      0.648,
+      0.65,
+      0.65,
+      0.652,
+      0.652,
+      0.654,
+      0.654,
+      0.66,
+      0.66,
+      0.664,
+      0.664,
+      0.666,
+      0.666,
+      0.668,
+      0.668,
+      0.67,
+      0.67,
+      0.672,
+      0.672,
+      0.674,
+      0.674,
+      0.676,
+      0.676,
+      0.678,
+      0.678,
+      0.684,
+      0.684,
+      0.69,
+      0.69,
+      0.692,
+      0.692,
+      0.694,
+      0.694,
+      0.696,
+      0.696,
+      0.7,
+      0.7,
+      0.704,
+      0.704,
+      0.71,
+      0.71,
+      0.718,
+      0.718,
+      0.734,
+      0.734,
+      0.736,
+      0.736,
+      0.738,
+      0.738,
+      0.74,
+      0.74,
+      0.742,
+      0.742,
+      0.75,
+      0.75,
+      0.752,
+      0.752,
+      0.754,
+      0.754,
+      0.758,
+      0.758,
+      0.76,
+      0.76,
+      0.762,
+      0.762,
+      0.764,
+      0.764,
+      0.768,
+      0.768,
+      0.77,
+      0.77,
+      0.778,
+      0.778,
+      0.784,
+      0.784,
+      0.788,
+      0.788,
+      0.79,
+      0.79,
+      0.792,
+      0.792,
+      0.798,
+      0.798,
+      0.806,
+      0.806,
+      0.808,
+      0.808,
+      0.81,
+      0.81,
+      0.812,
+      0.812,
+      0.822,
+      0.822,
+      0.824,
+      0.824,
+      0.826,
+      0.826,
+      0.828,
+      0.828,
+      0.83,
+      0.83,
+      0.832,
+      0.832,
+      0.834,
+      0.834,
+      0.838,
+      0.838,
+      0.84,
+      0.84,
+      0.85,
+      0.85,
+      0.852,
+      0.852,
+      0.854,
+      0.854,
+      0.858,
+      0.858,
+      0.862,
+      0.862,
+      0.864,
+      0.864,
+      0.866,
+      0.866,
+      0.868,
+      0.868,
+      0.87,
+      0.87,
+      0.874,
+      0.874,
+      0.876,
+      0.876,
+      0.878,
+      0.878,
+      0.882,
+      0.882,
+      0.888,
+      0.888,
+      0.89,
+      0.89,
+      0.892,
+      0.892,
+      0.894,
+      0.894,
+      0.896,
+      0.896,
+      0.9,
+      0.9,
+      0.902,
+      0.902,
+      0.904,
+      0.904,
+      0.906,
+      0.906,
+      0.908,
+      0.908,
+      0.91,
+      0.91,
+      0.912,
+      0.912,
+      0.916,
+      0.916,
+      0.918,
+      0.918,
+      0.92,
+      0.92,
+      0.922,
+      0.922,
+      0.924,
+      0.924,
+      0.928,
+      0.928,
+      0.932,
+      0.932,
+      0.934,
+      0.934,
+      0.936,
+      0.936,
+      0.938,
+      0.938,
+      0.94,
+      0.94,
+      0.948,
+      0.948,
+      0.954,
+      0.954,
+      0.956,
+      0.956,
+      0.958,
+      0.958,
+      0.96,
+      0.96,
+      0.962,
+      0.962,
+      0.964,
+      0.964,
+      0.966,
+      0.966,
+      0.968,
+      0.968,
+      0.97,
+      0.97,
+      0.972,
+      0.972,
+      0.976,
+      0.976,
+      0.978,
+      0.978,
+      0.98,
+      0.98,
+      0.982,
+      0.982,
+      0.984,
+      0.984,
+      0.986,
+      0.986,
+      0.988,
+      0.988,
+      0.992,
+      0.992,
+      0.994,
+      0.994,
+      0.996,
+      0.996,
+      0.998,
+      0.998,
+      1.0,
+      1.0
+    ]
+  },
+  "model": {
+    "theta": [
+      1.8661774242920528,
+      -1.319508466465634,
+      -0.8347097725826975,
+      -0.5588304354956953,
+      -0.5311145758256072,
+      0.9245167630138621,
+      0.8780241135617458,
+      0.2931357567752935,
+      -0.015173676817707921,
+      -0.22951399037171988,
+      -0.3803560605093697,
+      -0.3598386126207097,
+      -0.3479005288034006,
+      0.029481952354820706,
+      0.05546258196941691,
+      0.03866223504158493,
+      0.11570616586856518,
+      0.12634297250886295,
+      0.7616572941956206,
+      0.06035417724912872,
+      -0.029106327627411145,
+      -0.020820579312303383,
+      0.04595673328656965,
+      0.1571199559153003,
+      0.3569923145245893,
+      -0.07260640942129683,
+      -0.07703722683146662,
+      0.050431080136156076,
+      0.13518953888669044,
+      0.0340049295789959,
+      -1.2480603612939194,
+      -0.17537932994016378,
+      0.004716661704935358,
+      0.016839899696234395,
+      0.08627843201919268,
+      -0.08316731619592861,
+      -0.0982768393573576,
+      0.04738109253452149,
+      0.0947906605664763,
+      0.29316849671694234,
+      0.2796110244075369,
+      2.2087403166608954,
+      -0.2731884363113436,
+      -0.6517718913706851,
+      1.0053476269042014,
+      -1.8632814904669588,
+      -5.0560799839567885,
+      6.569118750071129
+    ]
+  },
+  "name": "Tensor-Rayleigh",
+  "notes": {
+    "conditional_moments": "exact q_r-weighted moments over the shared vocabulary",
+    "entropy_source": "GPT-J-6B reference distribution",
+    "features_computed_once": true,
+    "full_vocab_backend": "GPU-batched Torch B-splines with banded second moments",
+    "log_probability_source": "GPT-Neo-2.7B scoring model",
+    "partial_document_cache_resumable": true,
+    "shared_vocabulary_rule": "crop both proxy logits to min(vocab_ref, vocab_score), then normalize, matching official AdaDetectGPT",
+    "test_domain_is_untouched_during_selection": true
+  },
+  "pr_metrics": {
+    "pr_auc": 0.8410596354755377,
+    "precision": [
+      0.5,
+      0.5005005005005005,
+      0.501002004008016,
+      0.5015045135406219,
+      0.5020080321285141,
+      0.5025125628140703,
+      0.5030181086519114,
+      0.5035246727089627,
+      0.5040322580645161,
+      0.5045408678102926,
+      0.5050505050505051,
+      0.5055611729019212,
+      0.5060728744939271,
+      0.5065856129685917,
+      0.5070993914807302,
+      0.5076142131979695,
+      0.508130081300813,
+      0.508646998982706,
+      0.5091649694501018,
+      0.509683995922528,
+      0.5102040816326531,
+      0.5107252298263534,
+      0.5112474437627812,
+      0.5117707267144319,
+      0.5122950819672131,
+      0.5128205128205128,
+      0.5133470225872689,
+      0.513874614594039,
+      0.51440329218107,
+      0.5149330587023687,
+      0.5154639175257731,
+      0.5159958720330238,
+      0.5165289256198347,
+      0.5170630816959669,
+      0.5175983436853002,
+      0.5181347150259067,
+      0.5186721991701245,
+      0.5192107995846313,
+      0.5197505197505198,
+      0.5202913631633714,
+      0.5208333333333334,
+      0.5213764337851929,
+      0.5219206680584552,
+      0.522466039707419,
+      0.5230125523012552,
+      0.5225130890052356,
+      0.5230607966457023,
+      0.5236096537250787,
+      0.5241596638655462,
+      0.5247108307045215,
+      0.5252631578947369,
+      0.5258166491043204,
+      0.5263713080168776,
+      0.5269271383315733,
+      0.5274841437632135,
+      0.5280423280423281,
+      0.5286016949152542,
+      0.5291622481442205,
+      0.529723991507431,
+      0.5302869287991498,
+      0.5308510638297872,
+      0.531416400425985,
+      0.5319829424307037,
+      0.5325506937033084,
+      0.5331196581196581,
+      0.5336898395721925,
+      0.5342612419700214,
+      0.5348338692390139,
+      0.5354077253218884,
+      0.5349087003222341,
+      0.535483870967742,
+      0.5360602798708288,
+      0.5366379310344828,
+      0.5372168284789643,
+      0.5377969762419006,
+      0.5383783783783784,
+      0.538961038961039,
+      0.5395449620801733,
+      0.5401301518438177,
+      0.5396308360477742,
+      0.5402173913043479,
+      0.5408052230685527,
+      0.5403050108932462,
+      0.5408942202835333,
+      0.5414847161572053,
+      0.5420765027322404,
+      0.5426695842450766,
+      0.5432639649507119,
+      0.543859649122807,
+      0.544456641053787,
+      0.545054945054945,
+      0.5456545654565457,
+      0.5462555066079295,
+      0.5468577728776185,
+      0.5474613686534217,
+      0.5480662983425414,
+      0.5486725663716814,
+      0.5492801771871539,
+      0.549889135254989,
+      0.5504994450610433,
+      0.5511111111111111,
+      0.5517241379310345,
+      0.5512249443207127,
+      0.5507246376811594,
+      0.5513392857142857,
+      0.5519553072625698,
+      0.5525727069351231,
+      0.5531914893617021,
+      0.5538116591928252,
+      0.5544332210998878,
+      0.5550561797752809,
+      0.5556805399325084,
+      0.5551801801801802,
+      0.5558060879368658,
+      0.5564334085778782,
+      0.5559322033898305,
+      0.5565610859728507,
+      0.5571913929784824,
+      0.5578231292517006,
+      0.5584562996594779,
+      0.5590909090909091,
+      0.5597269624573379,
+      0.5603644646924829,
+      0.5610034207525656,
+      0.5616438356164384,
+      0.5622857142857143,
+      0.562929061784897,
+      0.563573883161512,
+      0.5642201834862385,
+      0.5648679678530425,
+      0.5655172413793104,
+      0.5661680092059839,
+      0.5668202764976958,
+      0.5674740484429066,
+      0.5681293302540416,
+      0.5676300578034682,
+      0.5682870370370371,
+      0.5689455388180765,
+      0.5696055684454756,
+      0.570267131242741,
+      0.5709302325581396,
+      0.5715948777648429,
+      0.5722610722610723,
+      0.572928821470245,
+      0.5735981308411215,
+      0.5742690058479533,
+      0.5749414519906323,
+      0.5756154747948418,
+      0.5762910798122066,
+      0.5769682726204466,
+      0.5776470588235294,
+      0.5783274440518257,
+      0.5778301886792453,
+      0.5785123966942148,
+      0.5780141843971631,
+      0.578698224852071,
+      0.5793838862559242,
+      0.5788849347568209,
+      0.5795724465558195,
+      0.5802615933412604,
+      0.5797619047619048,
+      0.5792610250297974,
+      0.5799522673031027,
+      0.5794504181600956,
+      0.5801435406698564,
+      0.5808383233532934,
+      0.5815347721822542,
+      0.5822328931572629,
+      0.5829326923076923,
+      0.5836341756919374,
+      0.5843373493975904,
+      0.5838359469240049,
+      0.5845410628019324,
+      0.585247883917775,
+      0.585956416464891,
+      0.5866666666666667,
+      0.587378640776699,
+      0.5880923450789793,
+      0.5888077858880778,
+      0.5895249695493301,
+      0.5902439024390244,
+      0.590964590964591,
+      0.5916870415647921,
+      0.5924112607099143,
+      0.5931372549019608,
+      0.5938650306748466,
+      0.5945945945945946,
+      0.5953259532595326,
+      0.5948275862068966,
+      0.5955610357583231,
+      0.5962962962962963,
+      0.595797280593325,
+      0.5965346534653465,
+      0.59727385377943,
+      0.598014888337469,
+      0.5987577639751552,
+      0.5982587064676617,
+      0.5990037359900373,
+      0.5997506234413965,
+      0.6004993757802747,
+      0.60125,
+      0.6020025031289111,
+      0.6027568922305765,
+      0.6035131744040151,
+      0.6042713567839196,
+      0.6050314465408805,
+      0.6045340050377834,
+      0.605296343001261,
+      0.6060606060606061,
+      0.6055625790139064,
+      0.6063291139240506,
+      0.6070975918884665,
+      0.6078680203045685,
+      0.6086404066073697,
+      0.6094147582697201,
+      0.6089171974522293,
+      0.6096938775510204,
+      0.6104725415070242,
+      0.6112531969309463,
+      0.6120358514724712,
+      0.6128205128205129,
+      0.613607188703466,
+      0.6143958868894601,
+      0.6151866151866152,
+      0.615979381443299,
+      0.6167741935483871,
+      0.6162790697674418,
+      0.6170763260025873,
+      0.6178756476683938,
+      0.6186770428015564,
+      0.6194805194805195,
+      0.6202860858257477,
+      0.6197916666666666,
+      0.6192959582790091,
+      0.618798955613577,
+      0.6196078431372549,
+      0.6191099476439791,
+      0.6186107470511141,
+      0.6181102362204725,
+      0.6176084099868594,
+      0.618421052631579,
+      0.6179183135704874,
+      0.6187335092348285,
+      0.619550858652576,
+      0.6190476190476191,
+      0.6198675496688741,
+      0.6206896551724138,
+      0.6215139442231076,
+      0.6210106382978723,
+      0.6218375499334221,
+      0.6226666666666667,
+      0.6234979973297731,
+      0.6243315508021391,
+      0.6238286479250335,
+      0.6246648793565683,
+      0.625503355704698,
+      0.6263440860215054,
+      0.6258411843876177,
+      0.6253369272237197,
+      0.6261808367071525,
+      0.6270270270270271,
+      0.6278755074424899,
+      0.6273712737127372,
+      0.6268656716417911,
+      0.6277173913043478,
+      0.6285714285714286,
+      0.6294277929155313,
+      0.6289222373806276,
+      0.6297814207650273,
+      0.6292749658002736,
+      0.6301369863013698,
+      0.6310013717421125,
+      0.6304945054945055,
+      0.6313617606602476,
+      0.6322314049586777,
+      0.6317241379310344,
+      0.6325966850828729,
+      0.6334716459197787,
+      0.6343490304709142,
+      0.6338418862690708,
+      0.6333333333333333,
+      0.6342141863699583,
+      0.6350974930362117,
+      0.6359832635983264,
+      0.6354748603351955,
+      0.6363636363636364,
+      0.6372549019607843,
+      0.638148667601683,
+      0.6390449438202247,
+      0.639943741209564,
+      0.6408450704225352,
+      0.6417489421720733,
+      0.6412429378531074,
+      0.6421499292786421,
+      0.6430594900849859,
+      0.6439716312056738,
+      0.6448863636363636,
+      0.6443812233285917,
+      0.6452991452991453,
+      0.6462196861626248,
+      0.6471428571428571,
+      0.648068669527897,
+      0.6489971346704871,
+      0.648493543758967,
+      0.6494252873563219,
+      0.6489208633093525,
+      0.6498559077809798,
+      0.6493506493506493,
+      0.6502890173410405,
+      0.6512301013024602,
+      0.6507246376811594,
+      0.6502177068214804,
+      0.6511627906976745,
+      0.6521106259097526,
+      0.6530612244897959,
+      0.6525547445255474,
+      0.6535087719298246,
+      0.6544655929721815,
+      0.655425219941349,
+      0.6563876651982379,
+      0.6573529411764706,
+      0.658321060382916,
+      0.6578171091445427,
+      0.6587887740029542,
+      0.658284023668639,
+      0.6592592592592592,
+      0.6602373887240356,
+      0.6612184249628529,
+      0.6622023809523809,
+      0.6631892697466468,
+      0.664179104477612,
+      0.6651718983557549,
+      0.6646706586826348,
+      0.6656671664167916,
+      0.6651651651651652,
+      0.6646616541353384,
+      0.6641566265060241,
+      0.665158371040724,
+      0.6646525679758308,
+      0.6641452344931922,
+      0.6651515151515152,
+      0.6646433990895296,
+      0.6656534954407295,
+      0.6666666666666666,
+      0.6676829268292683,
+      0.6687022900763359,
+      0.6681957186544343,
+      0.669218989280245,
+      0.6702453987730062,
+      0.6697388632872504,
+      0.6692307692307692,
+      0.6702619414483821,
+      0.6712962962962963,
+      0.6707882534775889,
+      0.6718266253869969,
+      0.6728682170542636,
+      0.672360248447205,
+      0.6734059097978227,
+      0.6744548286604362,
+      0.6755070202808112,
+      0.675,
+      0.676056338028169,
+      0.677115987460815,
+      0.6781789638932496,
+      0.6776729559748428,
+      0.6787401574803149,
+      0.6782334384858044,
+      0.6777251184834123,
+      0.6787974683544303,
+      0.6782884310618067,
+      0.6777777777777778,
+      0.6788553259141494,
+      0.6799363057324841,
+      0.6810207336523126,
+      0.6821086261980831,
+      0.6816,
+      0.6826923076923077,
+      0.6837881219903692,
+      0.6832797427652733,
+      0.6843800322061192,
+      0.6854838709677419,
+      0.6865912762520194,
+      0.686084142394822,
+      0.6855753646677472,
+      0.685064935064935,
+      0.6845528455284553,
+      0.6840390879478827,
+      0.6851549755301795,
+      0.684640522875817,
+      0.6857610474631751,
+      0.6868852459016394,
+      0.6880131362889984,
+      0.6875,
+      0.6869851729818781,
+      0.6881188118811881,
+      0.6892561983471074,
+      0.6903973509933775,
+      0.6915422885572139,
+      0.6926910299003323,
+      0.6921797004991681,
+      0.6933333333333334,
+      0.6944908180300501,
+      0.6939799331103679,
+      0.695142378559464,
+      0.6946308724832215,
+      0.6957983193277311,
+      0.696969696969697,
+      0.6964586846543002,
+      0.6976351351351351,
+      0.6971235194585449,
+      0.6983050847457627,
+      0.6977928692699491,
+      0.6989795918367347,
+      0.7001703577512777,
+      0.6996587030716723,
+      0.6991452991452991,
+      0.6986301369863014,
+      0.6981132075471698,
+      0.697594501718213,
+      0.6987951807228916,
+      0.7,
+      0.6994818652849741,
+      0.7006920415224913,
+      0.7019064124783362,
+      0.703125,
+      0.7026086956521739,
+      0.7038327526132404,
+      0.7050610820244329,
+      0.7062937062937062,
+      0.7075306479859895,
+      0.7087719298245614,
+      0.7082601054481547,
+      0.7095070422535211,
+      0.708994708994709,
+      0.7084805653710248,
+      0.7079646017699115,
+      0.7074468085106383,
+      0.7087033747779752,
+      0.708185053380783,
+      0.7076648841354723,
+      0.7071428571428572,
+      0.7084078711985689,
+      0.7096774193548387,
+      0.7109515260323159,
+      0.710431654676259,
+      0.7117117117117117,
+      0.7111913357400722,
+      0.7124773960216998,
+      0.7119565217391305,
+      0.7114337568058077,
+      0.7127272727272728,
+      0.7140255009107468,
+      0.7153284671532847,
+      0.716636197440585,
+      0.7161172161172161,
+      0.7155963302752294,
+      0.7150735294117647,
+      0.716390423572744,
+      0.7177121771217713,
+      0.7171903881700554,
+      0.7166666666666667,
+      0.7161410018552876,
+      0.7156133828996283,
+      0.7169459962756052,
+      0.7182835820895522,
+      0.719626168224299,
+      0.7209737827715356,
+      0.7204502814258912,
+      0.7218045112781954,
+      0.7212806026365348,
+      0.720754716981132,
+      0.722117202268431,
+      0.7215909090909091,
+      0.7229601518026565,
+      0.7243346007604563,
+      0.7238095238095238,
+      0.7251908396946565,
+      0.7265774378585086,
+      0.7260536398467433,
+      0.727447216890595,
+      0.7269230769230769,
+      0.7263969171483622,
+      0.7277992277992278,
+      0.7272727272727273,
+      0.7286821705426356,
+      0.7300970873786408,
+      0.7315175097276264,
+      0.732943469785575,
+      0.734375,
+      0.735812133072407,
+      0.7352941176470589,
+      0.7367387033398821,
+      0.7381889763779528,
+      0.7396449704142012,
+      0.741106719367589,
+      0.7405940594059406,
+      0.7400793650793651,
+      0.7395626242544732,
+      0.7390438247011952,
+      0.7405189620758483,
+      0.74,
+      0.7414829659318637,
+      0.7409638554216867,
+      0.7424547283702213,
+      0.7439516129032258,
+      0.7454545454545455,
+      0.7449392712550608,
+      0.7464503042596349,
+      0.7479674796747967,
+      0.7494908350305499,
+      0.7489795918367347,
+      0.7505112474437627,
+      0.7520491803278688,
+      0.7535934291581109,
+      0.7551440329218106,
+      0.7546391752577319,
+      0.7541322314049587,
+      0.7536231884057971,
+      0.7531120331950207,
+      0.7525987525987526,
+      0.7520833333333333,
+      0.7515657620041754,
+      0.7510460251046025,
+      0.7526205450733753,
+      0.7542016806722689,
+      0.7557894736842106,
+      0.7573839662447257,
+      0.7568710359408034,
+      0.7563559322033898,
+      0.7558386411889597,
+      0.7553191489361702,
+      0.7569296375266524,
+      0.7564102564102564,
+      0.7558886509635975,
+      0.7553648068669528,
+      0.7569892473118279,
+      0.7564655172413793,
+      0.755939524838013,
+      0.7575757575757576,
+      0.7570498915401301,
+      0.7565217391304347,
+      0.7581699346405228,
+      0.75764192139738,
+      0.7592997811816192,
+      0.7587719298245614,
+      0.7604395604395604,
+      0.7599118942731278,
+      0.7615894039735099,
+      0.7632743362831859,
+      0.7627494456762749,
+      0.7622222222222222,
+      0.7616926503340757,
+      0.7633928571428571,
+      0.7651006711409396,
+      0.7668161434977578,
+      0.7685393258426966,
+      0.7702702702702703,
+      0.7697516930022573,
+      0.7692307692307693,
+      0.7687074829931972,
+      0.7704545454545455,
+      0.7699316628701595,
+      0.771689497716895,
+      0.7711670480549199,
+      0.7729357798165137,
+      0.774712643678161,
+      0.7741935483870968,
+      0.7759815242494227,
+      0.7754629629629629,
+      0.777262180974478,
+      0.7790697674418605,
+      0.7808857808857809,
+      0.780373831775701,
+      0.7822014051522248,
+      0.784037558685446,
+      0.7835294117647059,
+      0.785377358490566,
+      0.7872340425531915,
+      0.7890995260663507,
+      0.7885985748218527,
+      0.7904761904761904,
+      0.7899761336515513,
+      0.7894736842105263,
+      0.7913669064748201,
+      0.7932692307692307,
+      0.7927710843373494,
+      0.7922705314009661,
+      0.7917675544794189,
+      0.7936893203883495,
+      0.7931873479318735,
+      0.7951219512195122,
+      0.7970660146699267,
+      0.7990196078431373,
+      0.7985257985257985,
+      0.8004926108374384,
+      0.8024691358024691,
+      0.801980198019802,
+      0.8039702233250621,
+      0.8034825870646766,
+      0.8029925187032418,
+      0.8025,
+      0.8020050125313283,
+      0.8040201005025126,
+      0.8035264483627204,
+      0.8055555555555556,
+      0.8050632911392405,
+      0.8045685279187818,
+      0.8040712468193384,
+      0.8035714285714286,
+      0.80306905370844,
+      0.8051282051282052,
+      0.8046272493573264,
+      0.8041237113402062,
+      0.8036175710594315,
+      0.8031088082901554,
+      0.8051948051948052,
+      0.8072916666666666,
+      0.8093994778067886,
+      0.8115183246073299,
+      0.8136482939632546,
+      0.8131578947368421,
+      0.8153034300791556,
+      0.8174603174603174,
+      0.8196286472148541,
+      0.8218085106382979,
+      0.824,
+      0.8235294117647058,
+      0.8230563002680965,
+      0.8225806451612904,
+      0.8221024258760108,
+      0.8216216216216217,
+      0.8211382113821138,
+      0.8206521739130435,
+      0.8201634877384196,
+      0.8224043715846995,
+      0.821917808219178,
+      0.8241758241758241,
+      0.8264462809917356,
+      0.8259668508287292,
+      0.8282548476454293,
+      0.8277777777777777,
+      0.83008356545961,
+      0.8296089385474861,
+      0.8319327731092437,
+      0.8314606741573034,
+      0.8309859154929577,
+      0.8333333333333334,
+      0.8328611898016998,
+      0.8352272727272727,
+      0.8376068376068376,
+      0.8371428571428572,
+      0.836676217765043,
+      0.8362068965517241,
+      0.8357348703170029,
+      0.838150289017341,
+      0.8376811594202899,
+      0.8372093023255814,
+      0.8396501457725948,
+      0.8391812865497076,
+      0.8387096774193549,
+      0.8382352941176471,
+      0.8377581120943953,
+      0.8402366863905325,
+      0.8397626112759644,
+      0.8392857142857143,
+      0.8388059701492537,
+      0.8383233532934131,
+      0.8408408408408409,
+      0.8403614457831325,
+      0.8398791540785498,
+      0.8393939393939394,
+      0.8419452887537994,
+      0.8414634146341463,
+      0.8440366972477065,
+      0.8466257668711656,
+      0.8461538461538461,
+      0.845679012345679,
+      0.8452012383900929,
+      0.8478260869565217,
+      0.8504672897196262,
+      0.853125,
+      0.8526645768025078,
+      0.8553459119496856,
+      0.8580441640378549,
+      0.8607594936708861,
+      0.8603174603174604,
+      0.8598726114649682,
+      0.8594249201277955,
+      0.8589743589743589,
+      0.8585209003215434,
+      0.8612903225806452,
+      0.86084142394822,
+      0.8603896103896104,
+      0.8599348534201955,
+      0.8627450980392157,
+      0.8622950819672132,
+      0.8618421052631579,
+      0.8613861386138614,
+      0.8609271523178808,
+      0.8637873754152824,
+      0.8633333333333333,
+      0.862876254180602,
+      0.8624161073825504,
+      0.8653198653198653,
+      0.8648648648648649,
+      0.864406779661017,
+      0.8639455782312925,
+      0.863481228668942,
+      0.863013698630137,
+      0.865979381443299,
+      0.8655172413793103,
+      0.8685121107266436,
+      0.8680555555555556,
+      0.8710801393728222,
+      0.8706293706293706,
+      0.8701754385964913,
+      0.8697183098591549,
+      0.872791519434629,
+      0.8723404255319149,
+      0.8754448398576512,
+      0.8785714285714286,
+      0.8781362007168458,
+      0.8812949640287769,
+      0.8844765342960289,
+      0.8840579710144928,
+      0.8836363636363637,
+      0.8832116788321168,
+      0.8827838827838828,
+      0.8823529411764706,
+      0.8819188191881919,
+      0.8814814814814815,
+      0.8847583643122676,
+      0.8843283582089553,
+      0.8838951310861424,
+      0.8872180451127819,
+      0.8867924528301887,
+      0.8863636363636364,
+      0.8859315589353612,
+      0.8893129770992366,
+      0.8888888888888888,
+      0.8884615384615384,
+      0.8918918918918919,
+      0.8914728682170543,
+      0.8910505836575876,
+      0.89453125,
+      0.8980392156862745,
+      0.8976377952755905,
+      0.9011857707509882,
+      0.9007936507936508,
+      0.900398406374502,
+      0.9,
+      0.8995983935742972,
+      0.9032258064516129,
+      0.9068825910931174,
+      0.9065040650406504,
+      0.9061224489795918,
+      0.9098360655737705,
+      0.9094650205761317,
+      0.9090909090909091,
+      0.9087136929460581,
+      0.9083333333333333,
+      0.9079497907949791,
+      0.9117647058823529,
+      0.9113924050632911,
+      0.9110169491525424,
+      0.9106382978723404,
+      0.9102564102564102,
+      0.9098712446351931,
+      0.9137931034482759,
+      0.9134199134199135,
+      0.9130434782608695,
+      0.9126637554585153,
+      0.9122807017543859,
+      0.9118942731277533,
+      0.911504424778761,
+      0.9111111111111111,
+      0.9107142857142857,
+      0.9103139013452914,
+      0.9099099099099099,
+      0.9095022624434389,
+      0.9090909090909091,
+      0.908675799086758,
+      0.9128440366972477,
+      0.9170506912442397,
+      0.9166666666666666,
+      0.9162790697674419,
+      0.9205607476635514,
+      0.92018779342723,
+      0.9198113207547169,
+      0.919431279620853,
+      0.919047619047619,
+      0.9186602870813397,
+      0.9230769230769231,
+      0.9227053140096618,
+      0.9223300970873787,
+      0.9219512195121952,
+      0.9215686274509803,
+      0.9211822660098522,
+      0.9207920792079208,
+      0.9253731343283582,
+      0.925,
+      0.9296482412060302,
+      0.9292929292929293,
+      0.9289340101522843,
+      0.9285714285714286,
+      0.9282051282051282,
+      0.9278350515463918,
+      0.927461139896373,
+      0.9270833333333334,
+      0.9267015706806283,
+      0.9263157894736842,
+      0.9259259259259259,
+      0.925531914893617,
+      0.9251336898395722,
+      0.9301075268817204,
+      0.9297297297297298,
+      0.9293478260869565,
+      0.9289617486338798,
+      0.9285714285714286,
+      0.9281767955801105,
+      0.9277777777777778,
+      0.9273743016759777,
+      0.9269662921348315,
+      0.9265536723163842,
+      0.9261363636363636,
+      0.9257142857142857,
+      0.9252873563218391,
+      0.9248554913294798,
+      0.9244186046511628,
+      0.9239766081871345,
+      0.9235294117647059,
+      0.9230769230769231,
+      0.9226190476190477,
+      0.9221556886227545,
+      0.9216867469879518,
+      0.9212121212121213,
+      0.9207317073170732,
+      0.9263803680981595,
+      0.9259259259259259,
+      0.9254658385093167,
+      0.925,
+      0.9245283018867925,
+      0.9240506329113924,
+      0.9299363057324841,
+      0.9294871794871795,
+      0.9354838709677419,
+      0.935064935064935,
+      0.934640522875817,
+      0.9342105263157895,
+      0.9337748344370861,
+      0.9333333333333333,
+      0.9328859060402684,
+      0.9324324324324325,
+      0.9387755102040817,
+      0.9452054794520548,
+      0.9448275862068966,
+      0.9444444444444444,
+      0.9440559440559441,
+      0.9507042253521126,
+      0.950354609929078,
+      0.95,
+      0.9568345323741008,
+      0.9565217391304348,
+      0.9635036496350365,
+      0.9632352941176471,
+      0.9629629629629629,
+      0.9626865671641791,
+      0.9624060150375939,
+      0.9621212121212122,
+      0.9618320610687023,
+      0.9615384615384616,
+      0.9612403100775194,
+      0.9609375,
+      0.9606299212598425,
+      0.9603174603174603,
+      0.96,
+      0.9596774193548387,
+      0.967479674796748,
+      0.9672131147540983,
+      0.9669421487603306,
+      0.9666666666666667,
+      0.9663865546218487,
+      0.9661016949152542,
+      0.9658119658119658,
+      0.9655172413793104,
+      0.9652173913043478,
+      0.9649122807017544,
+      0.9646017699115044,
+      0.9642857142857143,
+      0.963963963963964,
+      0.9636363636363636,
+      0.963302752293578,
+      0.9629629629629629,
+      0.9626168224299065,
+      0.9622641509433962,
+      0.9619047619047619,
+      0.9615384615384616,
+      0.9611650485436893,
+      0.9607843137254902,
+      0.9603960396039604,
+      0.96,
+      0.9595959595959596,
+      0.9591836734693877,
+      0.9587628865979382,
+      0.9583333333333334,
+      0.9578947368421052,
+      0.9574468085106383,
+      0.956989247311828,
+      0.9565217391304348,
+      0.967032967032967,
+      0.9666666666666667,
+      0.9662921348314607,
+      0.9659090909090909,
+      0.9655172413793104,
+      0.9651162790697675,
+      0.9647058823529412,
+      0.9642857142857143,
+      0.963855421686747,
+      0.9634146341463414,
+      0.9629629629629629,
+      0.9625,
+      0.9620253164556962,
+      0.9615384615384616,
+      0.961038961038961,
+      0.9605263157894737,
+      0.96,
+      0.9594594594594594,
+      0.9726027397260274,
+      0.9722222222222222,
+      0.971830985915493,
+      0.9714285714285714,
+      0.9710144927536232,
+      0.9705882352941176,
+      0.9701492537313433,
+      0.9696969696969697,
+      0.9692307692307692,
+      0.984375,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.996,
+      0.996,
+      0.996,
+      0.996,
+      0.996,
+      0.996,
+      0.996,
+      0.996,
+      0.996,
+      0.996,
+      0.994,
+      0.994,
+      0.994,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.99,
+      0.988,
+      0.988,
+      0.988,
+      0.988,
+      0.988,
+      0.988,
+      0.988,
+      0.988,
+      0.988,
+      0.986,
+      0.986,
+      0.986,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.982,
+      0.98,
+      0.98,
+      0.978,
+      0.978,
+      0.978,
+      0.976,
+      0.976,
+      0.976,
+      0.974,
+      0.972,
+      0.972,
+      0.97,
+      0.97,
+      0.97,
+      0.97,
+      0.97,
+      0.97,
+      0.97,
+      0.97,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.968,
+      0.966,
+      0.966,
+      0.966,
+      0.964,
+      0.964,
+      0.964,
+      0.964,
+      0.964,
+      0.962,
+      0.962,
+      0.962,
+      0.962,
+      0.962,
+      0.962,
+      0.962,
+      0.962,
+      0.962,
+      0.962,
+      0.96,
+      0.96,
+      0.96,
+      0.958,
+      0.958,
+      0.958,
+      0.958,
+      0.958,
+      0.958,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.956,
+      0.954,
+      0.954,
+      0.954,
+      0.954,
+      0.954,
+      0.954,
+      0.952,
+      0.95,
+      0.948,
+      0.948,
+      0.946,
+      0.944,
+      0.942,
+      0.94,
+      0.94,
+      0.938,
+      0.938,
+      0.938,
+      0.936,
+      0.936,
+      0.936,
+      0.936,
+      0.934,
+      0.934,
+      0.934,
+      0.934,
+      0.934,
+      0.932,
+      0.932,
+      0.932,
+      0.932,
+      0.93,
+      0.928,
+      0.928,
+      0.928,
+      0.928,
+      0.926,
+      0.924,
+      0.924,
+      0.924,
+      0.924,
+      0.922,
+      0.922,
+      0.92,
+      0.92,
+      0.92,
+      0.918,
+      0.918,
+      0.918,
+      0.916,
+      0.916,
+      0.916,
+      0.916,
+      0.914,
+      0.912,
+      0.912,
+      0.912,
+      0.912,
+      0.91,
+      0.91,
+      0.91,
+      0.91,
+      0.91,
+      0.91,
+      0.91,
+      0.91,
+      0.908,
+      0.908,
+      0.908,
+      0.908,
+      0.908,
+      0.906,
+      0.906,
+      0.906,
+      0.906,
+      0.906,
+      0.906,
+      0.904,
+      0.904,
+      0.902,
+      0.902,
+      0.9,
+      0.9,
+      0.9,
+      0.898,
+      0.896,
+      0.896,
+      0.896,
+      0.896,
+      0.894,
+      0.894,
+      0.894,
+      0.894,
+      0.894,
+      0.894,
+      0.894,
+      0.892,
+      0.892,
+      0.89,
+      0.89,
+      0.89,
+      0.89,
+      0.89,
+      0.89,
+      0.89,
+      0.89,
+      0.888,
+      0.888,
+      0.886,
+      0.884,
+      0.882,
+      0.882,
+      0.88,
+      0.878,
+      0.878,
+      0.876,
+      0.876,
+      0.876,
+      0.876,
+      0.876,
+      0.874,
+      0.874,
+      0.874,
+      0.872,
+      0.87,
+      0.87,
+      0.87,
+      0.868,
+      0.868,
+      0.868,
+      0.866,
+      0.866,
+      0.866,
+      0.866,
+      0.864,
+      0.864,
+      0.864,
+      0.864,
+      0.862,
+      0.862,
+      0.86,
+      0.858,
+      0.858,
+      0.856,
+      0.854,
+      0.854,
+      0.854,
+      0.854,
+      0.854,
+      0.852,
+      0.852,
+      0.852,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.848,
+      0.846,
+      0.844,
+      0.842,
+      0.84,
+      0.84,
+      0.838,
+      0.838,
+      0.838,
+      0.838,
+      0.836,
+      0.834,
+      0.834,
+      0.834,
+      0.834,
+      0.834,
+      0.834,
+      0.832,
+      0.832,
+      0.832,
+      0.83,
+      0.83,
+      0.828,
+      0.828,
+      0.828,
+      0.826,
+      0.826,
+      0.824,
+      0.824,
+      0.822,
+      0.822,
+      0.822,
+      0.82,
+      0.818,
+      0.816,
+      0.814,
+      0.812,
+      0.812,
+      0.812,
+      0.81,
+      0.81,
+      0.81,
+      0.81,
+      0.808,
+      0.808,
+      0.808,
+      0.808,
+      0.808,
+      0.808,
+      0.806,
+      0.806,
+      0.804,
+      0.802,
+      0.8,
+      0.798,
+      0.798,
+      0.796,
+      0.794,
+      0.792,
+      0.792,
+      0.792,
+      0.792,
+      0.79,
+      0.79,
+      0.788,
+      0.788,
+      0.786,
+      0.784,
+      0.784,
+      0.784,
+      0.784,
+      0.784,
+      0.782,
+      0.78,
+      0.778,
+      0.778,
+      0.778,
+      0.776,
+      0.774,
+      0.772,
+      0.77,
+      0.77,
+      0.77,
+      0.77,
+      0.77,
+      0.768,
+      0.768,
+      0.766,
+      0.764,
+      0.764,
+      0.762,
+      0.762,
+      0.762,
+      0.76,
+      0.76,
+      0.76,
+      0.758,
+      0.758,
+      0.756,
+      0.754,
+      0.754,
+      0.752,
+      0.752,
+      0.752,
+      0.752,
+      0.752,
+      0.752,
+      0.752,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.748,
+      0.746,
+      0.744,
+      0.742,
+      0.742,
+      0.74,
+      0.74,
+      0.738,
+      0.738,
+      0.738,
+      0.738,
+      0.736,
+      0.736,
+      0.736,
+      0.736,
+      0.734,
+      0.734,
+      0.734,
+      0.734,
+      0.734,
+      0.732,
+      0.73,
+      0.728,
+      0.726,
+      0.724,
+      0.722,
+      0.72,
+      0.718,
+      0.718,
+      0.718,
+      0.718,
+      0.718,
+      0.716,
+      0.714,
+      0.712,
+      0.71,
+      0.71,
+      0.708,
+      0.706,
+      0.704,
+      0.704,
+      0.702,
+      0.7,
+      0.7,
+      0.698,
+      0.696,
+      0.696,
+      0.694,
+      0.694,
+      0.692,
+      0.692,
+      0.69,
+      0.69,
+      0.69,
+      0.688,
+      0.686,
+      0.684,
+      0.684,
+      0.684,
+      0.684,
+      0.684,
+      0.684,
+      0.682,
+      0.68,
+      0.678,
+      0.678,
+      0.676,
+      0.676,
+      0.674,
+      0.674,
+      0.674,
+      0.672,
+      0.672,
+      0.67,
+      0.67,
+      0.67,
+      0.67,
+      0.668,
+      0.668,
+      0.668,
+      0.666,
+      0.666,
+      0.666,
+      0.666,
+      0.664,
+      0.664,
+      0.662,
+      0.66,
+      0.66,
+      0.66,
+      0.658,
+      0.656,
+      0.654,
+      0.654,
+      0.652,
+      0.652,
+      0.652,
+      0.652,
+      0.65,
+      0.65,
+      0.65,
+      0.648,
+      0.648,
+      0.646,
+      0.644,
+      0.642,
+      0.64,
+      0.64,
+      0.638,
+      0.638,
+      0.636,
+      0.634,
+      0.632,
+      0.63,
+      0.628,
+      0.628,
+      0.626,
+      0.624,
+      0.622,
+      0.62,
+      0.62,
+      0.62,
+      0.62,
+      0.62,
+      0.62,
+      0.618,
+      0.618,
+      0.618,
+      0.618,
+      0.618,
+      0.618,
+      0.616,
+      0.614,
+      0.612,
+      0.61,
+      0.608,
+      0.606,
+      0.604,
+      0.602,
+      0.602,
+      0.6,
+      0.6,
+      0.6,
+      0.598,
+      0.598,
+      0.596,
+      0.596,
+      0.594,
+      0.594,
+      0.592,
+      0.59,
+      0.59,
+      0.588,
+      0.588,
+      0.588,
+      0.586,
+      0.584,
+      0.582,
+      0.58,
+      0.58,
+      0.578,
+      0.576,
+      0.576,
+      0.574,
+      0.572,
+      0.57,
+      0.568,
+      0.568,
+      0.566,
+      0.564,
+      0.562,
+      0.56,
+      0.56,
+      0.558,
+      0.556,
+      0.554,
+      0.554,
+      0.552,
+      0.552,
+      0.552,
+      0.55,
+      0.548,
+      0.546,
+      0.546,
+      0.546,
+      0.546,
+      0.544,
+      0.544,
+      0.544,
+      0.544,
+      0.542,
+      0.54,
+      0.538,
+      0.536,
+      0.534,
+      0.534,
+      0.532,
+      0.53,
+      0.528,
+      0.528,
+      0.526,
+      0.524,
+      0.522,
+      0.52,
+      0.52,
+      0.518,
+      0.516,
+      0.514,
+      0.514,
+      0.512,
+      0.51,
+      0.508,
+      0.506,
+      0.504,
+      0.504,
+      0.502,
+      0.502,
+      0.5,
+      0.5,
+      0.498,
+      0.496,
+      0.494,
+      0.494,
+      0.492,
+      0.492,
+      0.492,
+      0.49,
+      0.49,
+      0.49,
+      0.488,
+      0.486,
+      0.484,
+      0.482,
+      0.48,
+      0.478,
+      0.476,
+      0.476,
+      0.474,
+      0.472,
+      0.472,
+      0.47,
+      0.468,
+      0.466,
+      0.466,
+      0.464,
+      0.462,
+      0.462,
+      0.46,
+      0.458,
+      0.458,
+      0.458,
+      0.456,
+      0.456,
+      0.454,
+      0.452,
+      0.45,
+      0.448,
+      0.448,
+      0.448,
+      0.446,
+      0.444,
+      0.444,
+      0.442,
+      0.44,
+      0.438,
+      0.436,
+      0.434,
+      0.434,
+      0.432,
+      0.43,
+      0.428,
+      0.426,
+      0.424,
+      0.424,
+      0.422,
+      0.42,
+      0.418,
+      0.416,
+      0.414,
+      0.412,
+      0.41,
+      0.408,
+      0.406,
+      0.404,
+      0.402,
+      0.4,
+      0.398,
+      0.398,
+      0.398,
+      0.396,
+      0.394,
+      0.394,
+      0.392,
+      0.39,
+      0.388,
+      0.386,
+      0.384,
+      0.384,
+      0.382,
+      0.38,
+      0.378,
+      0.376,
+      0.374,
+      0.372,
+      0.372,
+      0.37,
+      0.37,
+      0.368,
+      0.366,
+      0.364,
+      0.362,
+      0.36,
+      0.358,
+      0.356,
+      0.354,
+      0.352,
+      0.35,
+      0.348,
+      0.346,
+      0.346,
+      0.344,
+      0.342,
+      0.34,
+      0.338,
+      0.336,
+      0.334,
+      0.332,
+      0.33,
+      0.328,
+      0.326,
+      0.324,
+      0.322,
+      0.32,
+      0.318,
+      0.316,
+      0.314,
+      0.312,
+      0.31,
+      0.308,
+      0.306,
+      0.304,
+      0.302,
+      0.302,
+      0.3,
+      0.298,
+      0.296,
+      0.294,
+      0.292,
+      0.292,
+      0.29,
+      0.29,
+      0.288,
+      0.286,
+      0.284,
+      0.282,
+      0.28,
+      0.278,
+      0.276,
+      0.276,
+      0.276,
+      0.274,
+      0.272,
+      0.27,
+      0.27,
+      0.268,
+      0.266,
+      0.266,
+      0.264,
+      0.264,
+      0.262,
+      0.26,
+      0.258,
+      0.256,
+      0.254,
+      0.252,
+      0.25,
+      0.248,
+      0.246,
+      0.244,
+      0.242,
+      0.24,
+      0.238,
+      0.238,
+      0.236,
+      0.234,
+      0.232,
+      0.23,
+      0.228,
+      0.226,
+      0.224,
+      0.222,
+      0.22,
+      0.218,
+      0.216,
+      0.214,
+      0.212,
+      0.21,
+      0.208,
+      0.206,
+      0.204,
+      0.202,
+      0.2,
+      0.198,
+      0.196,
+      0.194,
+      0.192,
+      0.19,
+      0.188,
+      0.186,
+      0.184,
+      0.182,
+      0.18,
+      0.178,
+      0.176,
+      0.176,
+      0.174,
+      0.172,
+      0.17,
+      0.168,
+      0.166,
+      0.164,
+      0.162,
+      0.16,
+      0.158,
+      0.156,
+      0.154,
+      0.152,
+      0.15,
+      0.148,
+      0.146,
+      0.144,
+      0.142,
+      0.142,
+      0.14,
+      0.138,
+      0.136,
+      0.134,
+      0.132,
+      0.13,
+      0.128,
+      0.126,
+      0.126,
+      0.126,
+      0.124,
+      0.122,
+      0.12,
+      0.118,
+      0.116,
+      0.114,
+      0.112,
+      0.11,
+      0.108,
+      0.106,
+      0.104,
+      0.102,
+      0.1,
+      0.098,
+      0.096,
+      0.094,
+      0.092,
+      0.09,
+      0.088,
+      0.086,
+      0.084,
+      0.082,
+      0.08,
+      0.078,
+      0.076,
+      0.074,
+      0.072,
+      0.07,
+      0.068,
+      0.066,
+      0.064,
+      0.062,
+      0.06,
+      0.058,
+      0.056,
+      0.054,
+      0.052,
+      0.05,
+      0.048,
+      0.046,
+      0.044,
+      0.042,
+      0.04,
+      0.038,
+      0.036,
+      0.034,
+      0.032,
+      0.03,
+      0.028,
+      0.026,
+      0.024,
+      0.022,
+      0.02,
+      0.018,
+      0.016,
+      0.014,
+      0.012,
+      0.01,
+      0.008,
+      0.006,
+      0.004,
+      0.002,
+      0.0
+    ]
+  },
+  "predictions": {
+    "real": [
+      0.9931019464242937,
+      0.9806146536633876,
+      0.7553482222745165,
+      -0.5944426124952319,
+      0.44321420089440416,
+      -0.24707211567788173,
+      1.835266460142728,
+      1.69715717896428,
+      -0.923811304118014,
+      0.9470639646025161,
+      -0.6387271576248372,
+      1.7892068881974745,
+      -0.14160395635680792,
+      0.8470438204504748,
+      -0.019316878510055237,
+      0.7380508574211327,
+      -0.04391328539503805,
+      0.18542239655390075,
+      1.3015398444032409,
+      0.817786939166569,
+      1.82305003410875,
+      0.6433829123043027,
+      -2.488568931764641,
+      1.222619598912798,
+      -1.2698126616681527,
+      2.218098589672502,
+      1.5219554004944167,
+      -1.6127301181527156,
+      -0.4055081928722777,
+      -2.12602111333424,
+      1.2184826531633057,
+      1.1799988140691697,
+      1.5890739265091864,
+      -0.4365114837095052,
+      1.2932408861483942,
+      -1.6277355413450973,
+      0.2477417709976418,
+      0.32971041942085294,
+      1.563798440777108,
+      -0.7098133506752579,
+      1.6650997629407773,
+      0.14994967321480004,
+      -0.24836840512951455,
+      1.7104894450585055,
+      1.3959483176288274,
+      2.3537352616461904,
+      0.21136486632945442,
+      -0.3332599859764421,
+      -0.8009151141240106,
+      -0.72089763010506,
+      0.3616944792087487,
+      0.34490986743968605,
+      -0.039130524354249796,
+      0.7249184765634424,
+      -0.5810868930185451,
+      1.5923486477367175,
+      2.650641346077163,
+      -0.7177616932967177,
+      -0.5962129091343714,
+      0.7784860792579581,
+      0.659311270161275,
+      1.0994515117789734,
+      0.7720992885306169,
+      0.4747297981636263,
+      -0.0944845783713143,
+      -1.2968446158806926,
+      -0.6160218299894351,
+      1.2073426731341883,
+      0.131518134783368,
+      0.3653209718671958,
+      1.8314742296804147,
+      0.37967756573054584,
+      -0.09409296619693672,
+      -0.45032209332295464,
+      -0.9104385549777868,
+      -0.2158894720624597,
+      -0.04883966274563358,
+      1.4152074743669971,
+      0.6042562887403092,
+      0.5509012931108308,
+      1.605623289963293,
+      0.7234729449013003,
+      -0.30285489082483597,
+      1.222384768395299,
+      1.2705888912058514,
+      1.228863941684728,
+      -0.5817068662183801,
+      -0.943693206446952,
+      0.11494968185266759,
+      0.4555704450952165,
+      2.24865399555628,
+      -0.7451904892472152,
+      1.119562415199745,
+      1.4225678137347602,
+      1.1578725560248315,
+      0.6770141811710507,
+      1.8953572988912328,
+      1.5329514174677712,
+      0.6311114817408893,
+      -0.7638063854735343,
+      1.6717241408529049,
+      1.9087149105666468,
+      -0.6082219970993328,
+      -0.2828857563629481,
+      0.9654417243481662,
+      1.7003464196095757,
+      -0.6308587351038573,
+      -0.15596841003172557,
+      0.8970518636090118,
+      0.6846192031746104,
+      0.2635044556533645,
+      0.3199752674858176,
+      0.1423012608530366,
+      0.10013658232447951,
+      1.2181448039787177,
+      0.6824589984803151,
+      0.6725336729752418,
+      -0.5434248775054347,
+      1.2845618312572586,
+      0.31407548974188265,
+      0.44579630483597354,
+      -0.2733653463718998,
+      1.6498279663060242,
+      0.959414196024401,
+      0.13072290843330522,
+      0.4240123147292605,
+      -1.156086708385016,
+      -0.1253211299989701,
+      0.9033067138407298,
+      1.823181719039848,
+      -0.3869100765597949,
+      1.5269323428089296,
+      1.1495454643221266,
+      1.1583865374298603,
+      0.7624382075120407,
+      0.42760985767544124,
+      0.4512442694448622,
+      0.8560864905921766,
+      1.2585504872813766,
+      0.2878188825049444,
+      -0.5280637659751255,
+      0.01981438273285076,
+      1.0758386501484578,
+      0.6847596678335893,
+      0.34462196225668684,
+      -0.3161061232202624,
+      1.7245195323633906,
+      0.5166819336917517,
+      1.9529095700521204,
+      0.44526708888287486,
+      0.7543900971780727,
+      1.3627290312395335,
+      -0.13002342071407008,
+      0.16193420328423624,
+      1.5422722686483976,
+      -1.293319807817195,
+      0.3964883413434684,
+      1.388735393016261,
+      0.3137803337075004,
+      0.6767630987835385,
+      0.711196873516107,
+      0.9494414597115545,
+      0.3616719925897983,
+      0.8077750123592166,
+      0.42755792833398204,
+      1.5334225468059748,
+      1.711631623320482,
+      -0.29770943719858195,
+      -0.255491105629822,
+      0.1323193786043559,
+      0.5666504030577657,
+      -0.5149459681742559,
+      -0.5045494501993926,
+      1.0421815239471872,
+      0.46202935652296706,
+      0.16268709402447773,
+      -0.5128515824593414,
+      -0.03094416946085912,
+      2.3208014775545323,
+      1.1813637180479926,
+      1.1492901328642622,
+      0.1889068677827266,
+      0.3674799472982388,
+      -0.9245467216589505,
+      0.21362042174063478,
+      0.7580245406795982,
+      1.0171836338713895,
+      0.2754789302812127,
+      0.008642496812797523,
+      1.9930303421539177,
+      -2.1327498864182353,
+      0.30508270722576597,
+      0.6805354505352643,
+      0.6267110604010048,
+      -0.4874368125047338,
+      0.8275481560061974,
+      1.1247110227075394,
+      -0.11336623996468374,
+      1.0620150421571717,
+      -0.18849692885461058,
+      1.5105491765295276,
+      0.2680021239118903,
+      0.2776990511285342,
+      0.5533719730913019,
+      0.14233806581922026,
+      1.3452880732231367,
+      0.36989843208474377,
+      0.9990442827568166,
+      0.8139425999381845,
+      0.19920264596463927,
+      0.5311721752415509,
+      -0.32954198988587646,
+      1.2610640662751418,
+      0.8681168453820337,
+      0.6110212905677754,
+      0.5957944967988227,
+      -0.4624537689831549,
+      1.8579487010873186,
+      0.13811422257966846,
+      -1.7516177197721885,
+      -0.6545332084602881,
+      0.1688839203044839,
+      -0.16162805668917368,
+      1.1570236451292286,
+      1.4605151966319583,
+      1.5857644897050178,
+      -0.47070301578163976,
+      -0.06614247653222216,
+      -0.723615147442648,
+      1.8631592027658272,
+      0.1996011957323238,
+      -1.134813881769549,
+      -1.1488716917961266,
+      2.0461503850646845,
+      1.1425765908471126,
+      0.6016886747325231,
+      1.1470380400235365,
+      1.489522291130024,
+      2.0391113503849176,
+      1.1288504097744971,
+      -0.4525676028902485,
+      -0.03753682252807823,
+      -1.7570214572517084,
+      1.3258821938185772,
+      1.6773080621648555,
+      0.6818634190204461,
+      0.7358142487564358,
+      0.8315515926510879,
+      0.5064345757466043,
+      1.3334400942256146,
+      -1.0108150406858225,
+      -0.2889224983547022,
+      2.117167661801863,
+      0.8066335309228072,
+      0.7791794952761354,
+      1.0296091157347746,
+      0.978602647110738,
+      1.034043608743899,
+      -0.991877810613137,
+      0.575014696372398,
+      1.9714605118128692,
+      0.46287901784036967,
+      1.7734322191327216,
+      1.7455300402338496,
+      2.3300003046831823,
+      -0.059653375788054755,
+      0.5512868812503594,
+      0.8022059610932163,
+      0.7430679833106333,
+      0.4136523129703421,
+      0.9970750020878966,
+      1.4521889520567928,
+      -0.6866986143059606,
+      0.6398337636753955,
+      0.3391538581008535,
+      1.4928460848511895,
+      1.4207856057662835,
+      -0.3705297964856367,
+      -0.3091717953977779,
+      0.17923103931220602,
+      0.01607268096771039,
+      0.21442351579908678,
+      1.4036304478094368,
+      -0.12092005465478232,
+      0.7046576982234917,
+      0.10258801877769438,
+      -1.1414116804862544,
+      -0.35285468462560604,
+      -0.17616289597050352,
+      -0.8566137672974288,
+      0.5783377909040057,
+      0.9448412296894817,
+      1.1087981016670627,
+      -0.8157823507982678,
+      -0.8961464145669628,
+      1.4034913814302528,
+      1.6449505390971915,
+      0.4958819666374111,
+      1.1491996589379134,
+      1.7116735920039716,
+      1.8104911276337063,
+      0.9471924178019214,
+      -0.4704106164785705,
+      1.704405985027766,
+      0.573173790655729,
+      0.9184396177078876,
+      -0.19717185945506388,
+      0.54323912023878,
+      1.3906677295882415,
+      0.6013470598545433,
+      -1.115328953867088,
+      1.2629930882765734,
+      1.220664417000417,
+      -1.075634784511711,
+      1.2578251225635064,
+      1.1996671410862152,
+      0.7207959936935129,
+      -0.1559079877640081,
+      0.33688860611330346,
+      -0.8742559428942867,
+      0.2862746521217049,
+      -0.558915838243475,
+      1.1524110855778007,
+      -0.10501412065932555,
+      1.1467713516251168,
+      1.3447148946459113,
+      -0.33168281425410784,
+      1.5367220089553733,
+      1.0646396663660496,
+      0.8290981681740814,
+      1.6737102151202174,
+      2.372414515031457,
+      1.94189070849844,
+      -1.3409253997275619,
+      -0.7055292714925917,
+      -0.7138596753315039,
+      1.1111340782034145,
+      -0.7018857081133829,
+      -0.4175702160159163,
+      1.5243510111133716,
+      1.4363348564481342,
+      2.431354135618755,
+      0.8631857184959213,
+      1.6196861877767283,
+      0.18352725067346914,
+      -0.22439185166336284,
+      -0.10461498336930475,
+      0.2550187137048792,
+      1.8909336794348615,
+      -0.37209125427787126,
+      -0.7427858135755336,
+      0.48758813174647503,
+      1.1084685973835788,
+      1.1368883578255469,
+      0.6349731549791698,
+      2.0342161756423587,
+      0.07337900323627532,
+      1.338222040186085,
+      -0.19556377650055035,
+      1.0251087236026106,
+      0.9744956449461225,
+      0.7298779887359343,
+      0.05715726354153449,
+      -0.03325327156582287,
+      2.083584135643491,
+      1.319963883828847,
+      -0.42353182577503745,
+      -0.17645885359246286,
+      0.9309483471029923,
+      0.19292312630127892,
+      0.6532822054891169,
+      -0.16291864499196618,
+      0.9303739988413148,
+      0.11760880501652822,
+      0.9075108797187075,
+      0.7901336016608189,
+      1.2274522075746195,
+      -0.9396338292010203,
+      -1.4631496642101711,
+      0.07165080663690308,
+      0.9806872982984494,
+      1.6153807916694607,
+      0.8639207956995814,
+      0.8510703955263033,
+      1.3718432462435888,
+      0.6640258703418619,
+      -1.4460261624265884,
+      1.3139621466610658,
+      1.7908293243074782,
+      0.9730975519436871,
+      1.5684466388914236,
+      1.3748786315656787,
+      1.325480428142408,
+      0.7117259296021956,
+      -0.8017531398442432,
+      0.9254971887584873,
+      -0.16697752627220921,
+      0.8008840114785808,
+      2.154574724694997,
+      -1.4987108630483097,
+      -0.779839882473536,
+      0.9242198497415173,
+      0.6294083636242725,
+      1.1181980059256968,
+      0.4521847161391672,
+      0.956799603340707,
+      2.3436018301983803,
+      -0.264003736939295,
+      -1.1094864389075731,
+      0.6481061049761128,
+      1.3749150802473478,
+      0.9311577107333531,
+      1.3771072103331619,
+      0.9762838643903687,
+      -0.05753021362057216,
+      1.204993713243342,
+      0.6343158357065248,
+      1.6017683720962794,
+      0.6006050905118845,
+      -0.15994852156530034,
+      1.0769866884995822,
+      0.6473279899549411,
+      1.9441397731871295,
+      -0.8498029605140294,
+      0.3241177677715918,
+      2.5603343306432707,
+      2.260208625120222,
+      0.6926032839455009,
+      -0.005298008924957853,
+      -0.127725368544415,
+      1.1018590271693314,
+      0.9347818414976483,
+      -0.17798817254745092,
+      -0.10451465226877607,
+      0.97743874262302,
+      0.41770771533881285,
+      -0.09903392642530487,
+      0.26877390630390285,
+      1.4614698665887311,
+      0.18606951636997004,
+      2.697529054363412,
+      -0.33891789222866553,
+      -0.39400396492273193,
+      1.6109853654300408,
+      -0.35063773688660277,
+      0.29251258919958045,
+      -0.5574865104270106,
+      0.9828342829943458,
+      1.4387892877510011,
+      1.3342678436175868,
+      0.2652565441165678,
+      0.2104216224414185,
+      0.7726556199305508,
+      1.0630911132652348,
+      0.31304456003589465,
+      -0.9210193412215516,
+      -1.0282296800418544,
+      1.4745690108199836,
+      0.9439194246623824,
+      0.4612804559380032,
+      -0.5714484630121389,
+      0.8068669849150194,
+      0.6687946990930551,
+      0.522272988657652,
+      -0.6806938558550721,
+      2.1148118129260496,
+      -0.0810396301418158,
+      0.24894406718242315,
+      0.2297096727652512,
+      1.8065937097150646,
+      1.0471879848602568,
+      1.4565389618166342,
+      1.8739556523064582,
+      1.883235713443458,
+      0.4393121310373967,
+      -0.28019112036755256,
+      1.4558498369443993,
+      -0.5274605193647065,
+      -0.31223295533074613,
+      1.1167901529765996,
+      -0.15864919699925367,
+      -1.4268479391067161,
+      1.6367938355503873,
+      0.6866644397970993,
+      1.4607786754233112,
+      1.4141068509607029,
+      -0.5274160315495857,
+      0.3408323947864479,
+      1.6179393104523057,
+      -1.1356695193038573,
+      1.5458803503495073,
+      2.6977498148237173,
+      1.060502745810385,
+      1.130338046268635,
+      0.25788338451356474,
+      -0.3294471053464566,
+      0.7437583305856305,
+      0.0994590166310913,
+      0.7156654247949422,
+      1.7628297738638519
+    ],
+    "samples": [
+      2.9014524933028976,
+      2.5519153417975873,
+      1.722488141195154,
+      -0.45229387418078404,
+      1.7476948917190067,
+      1.6594477344541616,
+      2.622922344553753,
+      2.184161144608,
+      -0.0188965469511978,
+      1.4284941004537621,
+      0.4188503343619401,
+      1.861835771022629,
+      2.72906653167507,
+      1.8108835179363827,
+      2.476449841256989,
+      2.8378259047143577,
+      0.7362258758625705,
+      1.7483358381773277,
+      2.785121705312622,
+      2.148464885076751,
+      1.9829437916580634,
+      0.8967917013027804,
+      0.4674144076693618,
+      2.611433165755765,
+      0.669002353429776,
+      2.4848551414425404,
+      3.5024505052826815,
+      1.1339505020929468,
+      0.19867593437822353,
+      -0.29538310942606644,
+      1.2782152124181614,
+      3.5658655603350176,
+      1.1519237175778199,
+      0.9537889683166351,
+      2.0317447883820687,
+      1.1348758996356785,
+      1.0795464281691913,
+      1.3244433062090168,
+      1.7883675081565955,
+      1.6349017172572788,
+      2.602617382070325,
+      0.9475512716865624,
+      1.3078799999048105,
+      2.6303713854463506,
+      1.5860941228303238,
+      4.556788423592916,
+      0.7712616132607751,
+      1.278213726592356,
+      1.5207014214776964,
+      1.535898980349429,
+      1.8255785772484805,
+      1.453535228733296,
+      1.8454853742122312,
+      1.952509018009398,
+      2.8159479663243885,
+      2.4300092508572058,
+      2.985673599096005,
+      1.2489658140253448,
+      1.0209107134380726,
+      2.1345638161657337,
+      2.280839743834357,
+      2.6585046360466533,
+      2.165661822616255,
+      0.8143298737236272,
+      0.9030031954100692,
+      2.1816943102083832,
+      1.571184667288431,
+      2.56063600003907,
+      0.7727324856765162,
+      1.642852307470135,
+      3.1129566576280974,
+      1.922365373902431,
+      0.9797151390327711,
+      1.6381394495775246,
+      1.403694771986029,
+      0.78059791830733,
+      1.1771046720471379,
+      2.1903778836192553,
+      2.211990144350921,
+      0.20078864990091164,
+      2.1512230582799075,
+      2.0135576209648245,
+      1.4826185049672427,
+      1.8539744625250965,
+      2.2798016692611722,
+      2.585635040421283,
+      1.6479745494279205,
+      0.6984769487391689,
+      2.0405056315445873,
+      1.293300117137338,
+      2.4962582714114365,
+      2.018551884993014,
+      2.2024447460973384,
+      3.1011647786469596,
+      1.0543000848787527,
+      1.162269379857481,
+      2.6525838915850533,
+      2.1641288627722575,
+      2.131688101157195,
+      0.8172639342692469,
+      2.764732547137085,
+      2.432146495529379,
+      0.39359629593114737,
+      1.5945473556474572,
+      0.9446346672999896,
+      2.961548295441624,
+      0.8815951920040322,
+      1.7787312176295977,
+      2.6159087508741825,
+      2.5795773853840998,
+      2.535529150858839,
+      2.0917644841575793,
+      0.757882659207998,
+      1.4959583388136775,
+      2.4610573749555478,
+      1.993063286989497,
+      2.990311371353227,
+      1.5051753175961309,
+      2.051688892226416,
+      1.0895160311167726,
+      2.0131728621309457,
+      0.4328313323906807,
+      3.053154023715809,
+      1.4964345791800495,
+      1.4521524256732685,
+      2.0596542883734825,
+      0.06566270347442194,
+      1.2336612055999534,
+      1.8972651751843193,
+      2.9066382443351872,
+      2.1765102344959595,
+      1.9989540885457846,
+      1.8099735055586934,
+      1.1587448956345439,
+      1.8037585722359508,
+      1.331104230060419,
+      2.2160781884284515,
+      2.617343204151064,
+      2.529686580887637,
+      2.332023535432184,
+      0.65781628369249,
+      -0.7220675248567197,
+      2.0757365496283575,
+      1.8876370186648699,
+      1.243320208890369,
+      2.432289836894163,
+      1.7876160407165935,
+      2.2035815970899697,
+      2.5384571445013413,
+      1.5685870192540694,
+      2.3539962994370733,
+      1.9750864740272698,
+      1.6874794265484967,
+      1.5015148982496769,
+      1.482803682657746,
+      0.6791512069901988,
+      1.748334650738435,
+      2.059171751192063,
+      0.9184718699103208,
+      2.300304311937439,
+      0.7337296043986917,
+      1.5769985179839854,
+      1.6510146572207964,
+      2.9225409704214647,
+      1.7656746115955975,
+      2.6891984034823366,
+      2.6558475992161146,
+      1.8074306964102238,
+      1.265407557480042,
+      0.543519214067753,
+      0.736736665359211,
+      1.9477234228368767,
+      2.4406239475495592,
+      2.5928979765802325,
+      2.763386361771361,
+      1.6473594593194774,
+      0.8473816835975875,
+      1.4662497681924664,
+      3.325570074225718,
+      2.5453785433150315,
+      2.2061052750892873,
+      2.0112666744598924,
+      2.1955890013701223,
+      0.41023250769797853,
+      1.3820769635219123,
+      2.4261547873055536,
+      0.8235599263335271,
+      1.0745615617239916,
+      2.2195644526058036,
+      2.341529728903268,
+      -0.527459067531233,
+      2.04074908826142,
+      2.319684647231771,
+      2.140924799393089,
+      0.6871962714089417,
+      3.143451695517284,
+      2.7977116571344656,
+      1.1804789455870963,
+      1.2701786829024453,
+      0.9976113918735834,
+      1.5769659163292835,
+      0.9725951207698394,
+      2.3022374320275905,
+      3.3698206236518216,
+      1.2924780276164634,
+      2.6752061438150605,
+      1.1148476103104021,
+      2.3990200439000535,
+      1.8685366906494045,
+      0.5085182483182131,
+      0.27427443045086436,
+      1.5821231790952284,
+      2.3335323165111594,
+      2.793238469885392,
+      2.609547841850254,
+      2.4037102885039947,
+      1.6653151955339078,
+      1.5792149004063525,
+      1.074004455320248,
+      -0.2938999642699022,
+      1.4935584143372869,
+      0.9756318130633179,
+      1.0436705226760907,
+      1.3615254635725356,
+      2.617819924978137,
+      3.6985758769913435,
+      2.115069080022534,
+      2.4998669841564554,
+      0.45667795368702396,
+      3.1897868702503294,
+      0.7692021634327382,
+      1.1103655848451006,
+      2.0857263364785417,
+      3.2026741577462357,
+      3.323207081658628,
+      2.069821545493008,
+      1.6653666818918138,
+      2.3499084264428665,
+      3.419167718869042,
+      1.871254716654994,
+      -0.1094342553899644,
+      1.6170619201133487,
+      0.12076446320016944,
+      2.466506498199987,
+      3.3992698635399408,
+      2.965735760354253,
+      2.2249339416783,
+      0.3500434077689914,
+      1.7890079154174547,
+      2.41951518236562,
+      0.5657539313003569,
+      4.617916212705588,
+      3.7332860211799512,
+      2.015100762177665,
+      2.4510157296642765,
+      2.75203674260802,
+      1.5217734897985955,
+      2.254636231850253,
+      1.646566037797836,
+      2.0026364071964435,
+      1.7160044531354441,
+      1.7633261328098926,
+      2.5410720240081996,
+      3.365749954832563,
+      2.398464065707859,
+      2.484465598800251,
+      1.6645549779130935,
+      1.4494760581045911,
+      1.1415094687818301,
+      0.8189913693654666,
+      1.999018246505336,
+      3.298348420236101,
+      0.999206479671203,
+      1.513558469309377,
+      2.5429058678015726,
+      3.154782240825039,
+      2.1456905706514133,
+      0.8783838343015514,
+      1.611357870496398,
+      2.637256749268904,
+      0.00937595365926342,
+      1.6042929892294417,
+      2.13891390424503,
+      0.37156889349866773,
+      1.5732699236457954,
+      0.7323986068456667,
+      0.3950663374728155,
+      1.250556187237505,
+      1.2991144366096354,
+      -0.23897876081167954,
+      0.5537309339543155,
+      4.888036489551665,
+      1.4414672241897841,
+      1.9891245767879118,
+      0.8621028270169913,
+      2.973401938105851,
+      3.5457146537858306,
+      1.911149606029405,
+      1.9691673075318847,
+      2.537693105412585,
+      1.961728361262661,
+      2.1898829213142377,
+      1.771092539836695,
+      3.3843125210193796,
+      0.6512147023500431,
+      1.870600909169873,
+      1.6658886601773457,
+      1.050816576060016,
+      2.952332595539223,
+      1.634917767504954,
+      1.3481558460078176,
+      1.0907370607495153,
+      1.8563640844784632,
+      1.6459547527078975,
+      2.1814564450365252,
+      2.590283003914261,
+      2.6890719301094506,
+      1.6577867302039113,
+      1.128947030627891,
+      0.040128580729060045,
+      2.6846866096837303,
+      0.5002457846327565,
+      2.1377938113494745,
+      0.45975901636032057,
+      1.3755852894281317,
+      2.1026307763177368,
+      1.1642333682494634,
+      2.4011350288498345,
+      2.168429423694369,
+      1.4607254945543693,
+      2.3807202152819626,
+      3.477666554450602,
+      1.9620968876295835,
+      0.6345832956579524,
+      1.0075954534371108,
+      0.933645690328184,
+      2.3988836472105897,
+      1.4217428747916085,
+      0.5770740854018613,
+      1.8397058392137884,
+      2.4404819177092203,
+      2.5542262618435805,
+      1.116969950398697,
+      2.0334826119889877,
+      1.3742965952371504,
+      0.8849171703626713,
+      1.3297784842106688,
+      1.0406347136445055,
+      3.3800475050985996,
+      0.6723195522897758,
+      1.0068501009065043,
+      2.350022580879515,
+      2.457438399355952,
+      2.379977456699808,
+      1.8498751000853588,
+      3.4665250613534346,
+      1.7208573159915266,
+      2.4264127379264187,
+      2.4495797032810707,
+      2.5006092308969126,
+      3.034340092871727,
+      2.2229665559305927,
+      0.7263429617978068,
+      1.9353902480798624,
+      2.489313493235894,
+      2.415945895208756,
+      0.37438056769460776,
+      2.913917577328079,
+      1.959942247971873,
+      1.2423670779317069,
+      3.306943362707083,
+      2.4547776475983483,
+      3.1433992872555327,
+      1.672572525588156,
+      0.7305258527781343,
+      1.476002788258451,
+      2.150485474351578,
+      0.9685826150681616,
+      -0.43328624733881976,
+      2.095888750749409,
+      1.9961417378185236,
+      1.1959848136386286,
+      2.83595383341125,
+      1.856487833994832,
+      1.688410108837994,
+      1.6138630161101373,
+      0.44710780909292,
+      2.2706907655105812,
+      2.208405383598989,
+      2.7300100841491193,
+      2.505209895920384,
+      1.2710027453114765,
+      1.490959571378344,
+      1.075831038642934,
+      0.3728264527767425,
+      1.7336611445246433,
+      1.2222367213561438,
+      1.8888963194129282,
+      2.8089607700848047,
+      0.6263449803445477,
+      1.2910254204036409,
+      2.4715620707441213,
+      1.317344321178936,
+      0.8126496562428237,
+      1.090094913536125,
+      1.3334105264403313,
+      1.7904191939025988,
+      0.5291135787449666,
+      0.9225061221978584,
+      1.876676512358346,
+      2.210578552742594,
+      2.840783902717694,
+      1.7360975684538342,
+      2.1927458895218637,
+      0.9706174280424748,
+      2.497018868270167,
+      2.1966707738150513,
+      1.3495319970280861,
+      1.3630875571828105,
+      2.305162265500156,
+      2.8622386287004042,
+      1.4294081331831405,
+      3.057703772839436,
+      1.2148821238928385,
+      3.3683505173318116,
+      2.1466578665996545,
+      2.104468450800989,
+      1.1163551152828637,
+      1.269641867246592,
+      1.977233475495037,
+      1.734185387013202,
+      2.4523531490666532,
+      1.1238285616553265,
+      2.0956746301152847,
+      2.5001369460470015,
+      2.6035688699097483,
+      0.046768577959992744,
+      1.9849783094560514,
+      2.1561749779046893,
+      1.0181785916228687,
+      3.493104208483132,
+      1.6270640439097783,
+      0.2850053835712154,
+      2.122513079709458,
+      0.3135856214395931,
+      1.397728708064151,
+      0.9714676270627719,
+      1.6289043636506488,
+      2.2294923511272136,
+      2.0330507132940028,
+      0.9724338535361289,
+      0.21911973935883303,
+      2.878848404628161,
+      1.6104245397758608,
+      0.3811946484735945,
+      1.2670337907928424,
+      -0.20215644957986534,
+      1.971027394078245,
+      1.253158163512143,
+      0.4634495099746928,
+      0.8935455939074117,
+      0.9450987721351887,
+      1.2523927926366336,
+      1.8588779645575106,
+      1.4815733048996917,
+      2.6234311641400865,
+      3.429653223505701,
+      0.8058951348555211,
+      1.2558594065767414,
+      2.2286189276186184,
+      0.9575804918784312,
+      2.1575453500622763,
+      1.9114414501739678,
+      3.087731217180409,
+      1.8480794441823758,
+      -0.02383966009554126,
+      1.7826590384414014,
+      0.3843115338600851,
+      1.6825090585806346,
+      2.207532721289618,
+      1.5214383534116374,
+      1.7240948659271738,
+      1.7626038636799826,
+      1.0118292650513705,
+      2.680214872112428,
+      1.5816445907590515,
+      1.7066087794086786,
+      1.807782674523921,
+      3.3444343231281475,
+      0.6630866307510929,
+      3.1728740386459062,
+      2.6402043934299586,
+      1.7139740491902689,
+      1.024951216069762,
+      2.1388225589233896,
+      2.4134487521944474,
+      2.7662500696965155,
+      0.7391817430905747,
+      1.8819797584989888,
+      3.034289627788814
+    ]
+  },
+  "selected_hyperparameters": {
+    "covariance_shrinkage": 0.05,
+    "j_bases": 8,
+    "k_bases": 6,
+    "ridge_lambda": 1e-05,
+    "smooth_lambda": 0.0
+  }
+}

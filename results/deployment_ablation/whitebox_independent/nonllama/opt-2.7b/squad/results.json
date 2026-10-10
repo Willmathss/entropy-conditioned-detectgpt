@@ -1,0 +1,113 @@
+{
+  "builder_version": "2026.08.25-v1-whitebox-ltheta-vs-stheta",
+  "dataset": "squad",
+  "diagnostics": {
+    "calibration_denominator_cv": 0.11519958851454566,
+    "calibration_denominator_mean": 0.9896624204601502,
+    "denominator_cv": 0.1183896634498404,
+    "denominator_human_mean": 0.9707004215282663,
+    "denominator_machine_mean": 0.982834032930676,
+    "denominator_max": 1.30010132687037,
+    "denominator_mean": 0.9767672272294711,
+    "denominator_median": 0.9827802722642464,
+    "denominator_min": 0.5207694358761544,
+    "denominator_q05": 0.769930903884434,
+    "denominator_q95": 1.1561143011902015,
+    "denominator_std": 0.11563914330053086,
+    "pearson_denominator_token_count": 0.28804712756941026,
+    "pearson_ltheta_stheta": 0.9924961078010438,
+    "pearson_ltheta_token_count": 0.10061371260659059,
+    "pearson_stheta_token_count": 0.08690922763009293,
+    "reference_stheta_max_abs_error": 0.0,
+    "spearman_ltheta_stheta": 0.9948015348015348
+  },
+  "frozen_development_result": "data/fits/whitebox/opt-2.7b/squad/results.json",
+  "frozen_development_result_sha256": "484207f8feedace47cc570ce587c8caa00fe961b2184549680e6ea191da3890e",
+  "independent_reference_result": "results/whitebox/conditional_baselines/opt-2.7b/squad/results.json",
+  "metrics": {
+    "L_theta": {
+      "auc": 0.863656,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.144,
+          "type_i_error": 0.004
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.436,
+          "type_i_error": 0.04
+        }
+      },
+      "pauc": 0.6592820512820512,
+      "pr_auc": 0.8627813697724183
+    },
+    "S_theta": {
+      "auc": 0.861704,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.14,
+          "type_i_error": 0.004
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.418,
+          "type_i_error": 0.04
+        }
+      },
+      "pauc": 0.6450871794871795,
+      "pr_auc": 0.8569970299458189
+    }
+  },
+  "model": "opt-2.7b",
+  "n_calibration": 500,
+  "n_human": 500,
+  "n_machine": 500,
+  "protocol": {
+    "calibration_scores_recomputed_separately": true,
+    "calibration_source": "development human calibration cache",
+    "hyperparameter_selection": "unchanged development selection",
+    "ltheta": "theta^T U_X",
+    "score_epsilon": 1e-08,
+    "stheta": "theta^T U_X / sqrt(max(theta^T V_X theta, epsilon))",
+    "test_fitting_or_reorientation": false,
+    "text_scope": "unchanged full text from independent cache",
+    "theta_training": "unchanged frozen development Water-Full theta"
+  },
+  "schema_version": 1,
+  "selected_basis_spec": {
+    "degree_h": 2,
+    "degree_z": 2,
+    "entropy_clip_high": 0.995,
+    "entropy_clip_low": 0.005,
+    "h_base_knots": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "j_bases": 8,
+    "k_bases": 6,
+    "z_base_knots": [
+      -13.940627674102783,
+      -5.33026053460439,
+      -3.20741213409106,
+      -1.806483268737793,
+      -0.8152324636975927,
+      -0.1685683527489503,
+      0.0
+    ]
+  },
+  "selected_config": {
+    "covariance_shrinkage": 0.0,
+    "j_bases": 8,
+    "k_bases": 6,
+    "ridge_lambda": 0.01,
+    "smooth_lambda": 0.1
+  },
+  "status": "complete_cache_only_matched_deployment_ablation"
+}

@@ -1,0 +1,2 @@
+model,dataset,variant,n_human,n_machine,n_calibration,auroc,variance_ratio_machine_over_human,mean_gap,diagnostic_fit_source,direction_warning,variance_ratio_bootstrap_lo,variance_ratio_bootstrap_hi
+falcon-7b,squad,full,500,500,500,0.83704,0.7887254527058326,1.21605246854157,two_fold_test_score_diagnostics,False,0.6841650684053544,0.9134409875435869

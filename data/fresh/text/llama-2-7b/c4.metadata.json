@@ -1,0 +1,42 @@
+{
+  "calibration_machine_reference_used_only_for_length_matching": true,
+  "calibration_source_file": "data/fresh/sources/calibration/c4.jsonl",
+  "calibration_source_sha256": "455f132c221e5ffcc8e22d3aafe1e1f7abfbd7d55723e0e0b731dd33d9b951be",
+  "completed": 500,
+  "dataset": "c4",
+  "generation": {
+    "max_length": 200,
+    "min_generated_words": 55,
+    "min_length": 150,
+    "prompt_tokens": 120,
+    "sampling_mode": "top_k",
+    "seed": 20260902,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0
+  },
+  "generation_runtime": {
+    "batch_size": 4,
+    "device": "cuda:0",
+    "device_map": null,
+    "dtype": "bfloat16",
+    "max_attempts": 100,
+    "slow_tokenizer": false,
+    "trust_remote_code": true
+  },
+  "generation_template_file": null,
+  "generation_template_sha256": null,
+  "generator_script_sha256": "e189c5f7f01640ce0d932480add71055b8610461bf9a1746673b694bbbbe1d93",
+  "human_test_and_calibration_preprocessing_identical": true,
+  "imported_generator_sha256": "16298724e40a9cb00a4864906017ba6ac6679076b9c674f9b8c10e215be32292",
+  "model_label": "llama-2-7b",
+  "model_path": "models/llama-2-7b",
+  "n_samples": 500,
+  "output_file": "data/fresh/text/llama-2-7b/c4.jsonl",
+  "output_sha256": "92beebfb1bc383d51bb8ff8fe97ab8cdf54d17aa27b7e69e5ee4e9f020350fab",
+  "protocol_name": "fresh-frozen-ltheta-confirmation-20260902",
+  "schema_version": 1,
+  "status": "generated_and_frozen",
+  "test_source_file": "data/fresh/sources/test/c4.jsonl",
+  "test_source_sha256": "3e7b1773f61242a6f12e3a93cbe6cae29ce6b0fdcea105d4b6c6e70f6db60c32"
+}

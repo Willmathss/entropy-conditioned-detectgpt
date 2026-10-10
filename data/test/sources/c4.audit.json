@@ -1,0 +1,35 @@
+{
+  "dataset": "c4",
+  "excluded_by_source_index": 1000,
+  "excluded_by_text_fingerprint": 0,
+  "excluded_too_short": 4943,
+  "n_selected": 500,
+  "old_files_checked": [
+    "data/train/sources/c4.jsonl",
+    "data/train/text/llama-2-7b/c4.jsonl",
+    "data/train/text/opt-2.7b/c4.jsonl",
+    "data/train/text/opt-6.7b/c4.jsonl",
+    "data/train/text/falcon-7b/c4.jsonl"
+  ],
+  "old_full_text_hashes": 5632,
+  "old_prefix_hashes": 1002,
+  "prefix_words": 48,
+  "seed": 20260729,
+  "selected_manifest_sha256": "96b642454dde08850ae335b564cc727da739b6b68faf8e7888cc1ef1fe33412a",
+  "source_records_scanned": 13863,
+  "source_spec": {
+    "fields": [
+      "text",
+      "natural_text"
+    ],
+    "id_fields": [
+      "id",
+      "document_id",
+      "url"
+    ],
+    "kind": "json",
+    "min_words": 250,
+    "path": "data/raw/MarkLLM/dataset/c4/c4.json"
+  },
+  "used_source_indices": 1000
+}

@@ -1,0 +1,27 @@
+{
+  "eligible_unused": 4719,
+  "excluded_files": [
+    "data/train/sources/squad.jsonl",
+    "data/test/sources/squad.jsonl",
+    "data/train/text/falcon-7b/squad.jsonl",
+    "data/train/text/llama-2-7b/squad.jsonl",
+    "data/train/text/opt-2.7b/squad.jsonl",
+    "data/train/text/opt-6.7b/squad.jsonl",
+    "data/test/text/falcon-7b/squad.jsonl",
+    "data/test/text/llama-2-7b/squad.jsonl",
+    "data/test/text/opt-2.7b/squad.jsonl",
+    "data/test/text/opt-6.7b/squad.jsonl"
+  ],
+  "manifest_sha256": "e18402f26aa18f9df10080cae7e69577aeca31dc7e3b776c9a33a77f82f8b7e3",
+  "min_source_tokens_across_models": 170,
+  "min_total_tokens": 150,
+  "n": 500,
+  "prompt_tokens": 120,
+  "seed": 20260813,
+  "stats": {
+    "empty_or_duplicate_context": 68708,
+    "excluded_old_or_broken": 1608,
+    "scanned": 87599,
+    "too_short": 12564
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "builder_version": "2026.09.10-v1-blackbox-factorial-ltheta-rescore",
+  "completed_cells": 20,
+  "corrected_llama_run_root": "cache/blackbox/llama",
+  "datasets": [
+    "c4",
+    "pubmed",
+    "squad",
+    "writing",
+    "xsum"
+  ],
+  "expected_cells": 20,
+  "factorial_directions": "frozen from completed train-only S-era run",
+  "full_reference_comparison": "results/deployment_ablation/blackbox_independent",
+  "models": [
+    "falcon-7b",
+    "llama-2-7b",
+    "opt-2.7b",
+    "opt-6.7b"
+  ],
+  "primary_score": "T_theta(X)=theta^T U_X",
+  "status": "complete",
+  "variants": [
+    "b0",
+    "h",
+    "s",
+    "c",
+    "hs",
+    "hc",
+    "sc",
+    "full"
+  ]
+}

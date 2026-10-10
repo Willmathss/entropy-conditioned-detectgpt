@@ -1,0 +1,14 @@
+{
+  "builder_version": "2026.09.08-corrected-llama-ltheta-v1",
+  "corrected_llama_comparison_root": "cache/blackbox/llama/ltheta_deployment_ablation_corrected",
+  "expected_reproduced_stheta_macro_auroc": 0.7667594,
+  "n_corrected_llama_cells": 5,
+  "n_nonllama_cells": 15,
+  "n_total_cells": 20,
+  "observed_ltheta_macro_auroc": 0.7701021999999998,
+  "observed_stheta_macro_auroc": 0.7667594000000001,
+  "old_nonllama_comparison_root": "results/deployment_ablation/blackbox_independent",
+  "schema_version": 1,
+  "status": "complete_corrected_20_cell_deployment_ablation_summary",
+  "test_fitting_selection_or_orientation": false
+}

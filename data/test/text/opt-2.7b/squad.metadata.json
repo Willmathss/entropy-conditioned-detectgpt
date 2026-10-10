@@ -1,0 +1,17 @@
+{
+  "generation": {
+    "max_length": 200,
+    "min_length": 150,
+    "prompt_tokens": 120,
+    "sampling_kwargs": {
+      "top_k": 50
+    },
+    "sampling_mode": "top_k",
+    "seed": 20260813
+  },
+  "model": "opt-2.7b",
+  "n": 500,
+  "purpose": "replacement_independent_squad",
+  "source_manifest": "data/test/sources/squad.jsonl",
+  "source_manifest_sha256": "e18402f26aa18f9df10080cae7e69577aeca31dc7e3b776c9a33a77f82f8b7e3"
+}

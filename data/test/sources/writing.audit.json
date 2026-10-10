@@ -1,0 +1,27 @@
+{
+  "dataset": "writing",
+  "excluded_by_source_index": 1000,
+  "excluded_by_text_fingerprint": 313,
+  "excluded_too_short": 2672,
+  "n_selected": 500,
+  "old_files_checked": [
+    "data/train/sources/writing.jsonl",
+    "data/train/text/llama-2-7b/writing.jsonl",
+    "data/train/text/opt-2.7b/writing.jsonl",
+    "data/train/text/opt-6.7b/writing.jsonl",
+    "data/train/text/falcon-7b/writing.jsonl"
+  ],
+  "old_full_text_hashes": 5520,
+  "old_prefix_hashes": 984,
+  "prefix_words": 48,
+  "seed": 20260729,
+  "selected_manifest_sha256": "60fbb99fdd68b23df8bd8a13b93a41a66472d4340ce6d4f6f43071f93fb6fe35",
+  "source_records_scanned": 15563,
+  "source_spec": {
+    "kind": "writing_prompts",
+    "min_words": 250,
+    "source_file": "third_party/AdaDetectGPT/data/writingPrompts/valid.wp_source",
+    "target_file": "third_party/AdaDetectGPT/data/writingPrompts/valid.wp_target"
+  },
+  "used_source_indices": 1000
+}

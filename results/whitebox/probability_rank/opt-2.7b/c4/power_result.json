@@ -1,0 +1,129 @@
+{
+  "protocol": "white-box/source-model/independent",
+  "score_format_version": 3,
+  "scoring_region": "full-text",
+  "source_model": "opt-2.7b",
+  "dataset": "c4",
+  "n_pairs": 500,
+  "score_direction": "larger means more machine-like",
+  "calibration_protocol": "independent human calibration; finite-sample conformal p-values",
+  "metadata": {
+    "score_format_version": 3,
+    "protocol": "white-box/source-model/independent",
+    "scoring_region": "full-text",
+    "source_model": "opt-2.7b",
+    "dataset": "c4",
+    "input_version": "strict-nonllama/full-text",
+    "input_path": "data/test/text/opt-2.7b/c4.jsonl",
+    "input_sha256": "5c1ebe2d67f138460c342496bad75284b3e095d677221c69ed49bea03cc4d4c0",
+    "n_pairs": 500,
+    "scoring_model_path": "models/opt-2.7b",
+    "scoring_model_files": [
+      {
+        "name": "config.json",
+        "size": 691,
+        "sha256": "78e28adcb451e26ca38b4a808a53318dc12c711a26d2f04158586672de0f1482"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 685,
+        "sha256": "d1e4185b43a0a06421ab7218d5c1a775350bd13024507b34fbed25dcf6c14c6b"
+      },
+      {
+        "name": "vocab.json",
+        "size": 898822,
+        "sha256": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab"
+      },
+      {
+        "name": "merges.txt",
+        "size": 456318,
+        "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "size": 441,
+        "sha256": "0f3cd5f307a2735cfee31ddf33be88655e8be165ee2cdc26ced966f04258adf0"
+      },
+      {
+        "name": "pytorch_model.bin",
+        "size": 5303359381
+      }
+    ],
+    "methods": [
+      "Likelihood",
+      "Rank",
+      "LogRank",
+      "Entropy",
+      "LRR"
+    ],
+    "text_fields": [
+      "human_text",
+      "machine_text",
+      "calibration_text"
+    ],
+    "dtype": "float16",
+    "limit_samples": null,
+    "lrr_zero_logrank_policy": {
+      "meaning": "extended-real +infinity (all observed ranks are 1)",
+      "json_sentinel": 1e+300
+    },
+    "trust_remote_code": false
+  },
+  "lrr_zero_logrank_counts": {
+    "human_text": 0,
+    "machine_text": 0,
+    "calibration_text": 0
+  },
+  "methods": {
+    "Likelihood": {
+      "auroc": 0.604712,
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "type_i_error_at_0.01": 0.018,
+      "power_at_0.01": 0.016,
+      "type_i_error_at_0.05": 0.04,
+      "power_at_0.05": 0.052
+    },
+    "Rank": {
+      "auroc": 0.6068899999999999,
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "type_i_error_at_0.01": 0.006,
+      "power_at_0.01": 0.02,
+      "type_i_error_at_0.05": 0.03,
+      "power_at_0.05": 0.084
+    },
+    "LogRank": {
+      "auroc": 0.63166,
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "type_i_error_at_0.01": 0.016,
+      "power_at_0.01": 0.014,
+      "type_i_error_at_0.05": 0.04,
+      "power_at_0.05": 0.054
+    },
+    "Entropy": {
+      "auroc": 0.54606,
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "type_i_error_at_0.01": 0.006,
+      "power_at_0.01": 0.006,
+      "type_i_error_at_0.05": 0.068,
+      "power_at_0.05": 0.072
+    },
+    "LRR": {
+      "auroc": 0.6881039999999999,
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "type_i_error_at_0.01": 0.008,
+      "power_at_0.01": 0.002,
+      "type_i_error_at_0.05": 0.028,
+      "power_at_0.05": 0.072
+    }
+  }
+}

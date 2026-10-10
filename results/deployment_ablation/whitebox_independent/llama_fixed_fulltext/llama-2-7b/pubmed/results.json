@@ -1,0 +1,113 @@
+{
+  "builder_version": "2026.08.25-v1-whitebox-ltheta-vs-stheta",
+  "dataset": "pubmed",
+  "diagnostics": {
+    "calibration_denominator_cv": 0.10308733024541004,
+    "calibration_denominator_mean": 0.9791502463087806,
+    "denominator_cv": 0.10785896479710083,
+    "denominator_human_mean": 0.9814270321738984,
+    "denominator_machine_mean": 0.9938313756145278,
+    "denominator_max": 1.3674478946476867,
+    "denominator_mean": 0.9876292038942132,
+    "denominator_median": 0.9862062538341745,
+    "denominator_min": 0.7217133616215387,
+    "denominator_q05": 0.8319494236165446,
+    "denominator_q95": 1.1733000803759683,
+    "denominator_std": 0.10652466353541466,
+    "pearson_denominator_token_count": 0.08051496302755184,
+    "pearson_ltheta_stheta": 0.9932589827280582,
+    "pearson_ltheta_token_count": -0.1008467849266503,
+    "pearson_stheta_token_count": -0.1061137624206727,
+    "reference_stheta_max_abs_error": 0.0,
+    "spearman_ltheta_stheta": 0.9952352512352514
+  },
+  "frozen_development_result": "data/fits/whitebox/llama-2-7b/pubmed/results.json",
+  "frozen_development_result_sha256": "ed7c65f3cc92e5f43e30f9fb052a3453b6e0eed93096812f92fdc382d2448718",
+  "independent_reference_result": "results/whitebox/conditional_baselines/llama-2-7b/pubmed/results.json",
+  "metrics": {
+    "L_theta": {
+      "auc": 0.72206,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.042,
+          "type_i_error": 0.006
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.18,
+          "type_i_error": 0.044
+        }
+      },
+      "pauc": 0.5449435897435897,
+      "pr_auc": 0.704485036749686
+    },
+    "S_theta": {
+      "auc": 0.717556,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.024,
+          "type_i_error": 0.006
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.168,
+          "type_i_error": 0.046
+        }
+      },
+      "pauc": 0.5378461538461539,
+      "pr_auc": 0.692877922725527
+    }
+  },
+  "model": "llama-2-7b",
+  "n_calibration": 500,
+  "n_human": 500,
+  "n_machine": 500,
+  "protocol": {
+    "calibration_scores_recomputed_separately": true,
+    "calibration_source": "development human calibration cache",
+    "hyperparameter_selection": "unchanged development selection",
+    "ltheta": "theta^T U_X",
+    "score_epsilon": 1e-08,
+    "stheta": "theta^T U_X / sqrt(max(theta^T V_X theta, epsilon))",
+    "test_fitting_or_reorientation": false,
+    "text_scope": "unchanged full text from independent cache",
+    "theta_training": "unchanged frozen development Water-Full theta"
+  },
+  "schema_version": 1,
+  "selected_basis_spec": {
+    "degree_h": 2,
+    "degree_z": 2,
+    "entropy_clip_high": 0.995,
+    "entropy_clip_low": 0.005,
+    "h_base_knots": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "j_bases": 8,
+    "k_bases": 6,
+    "z_base_knots": [
+      -12.774182162284852,
+      -3.5376090312004087,
+      -1.8519632192452748,
+      -0.758574903011322,
+      -0.17985280026992181,
+      -0.010599060533568258,
+      0.0
+    ]
+  },
+  "selected_config": {
+    "covariance_shrinkage": 0.2,
+    "j_bases": 8,
+    "k_bases": 6,
+    "ridge_lambda": 0.0001,
+    "smooth_lambda": 0.1
+  },
+  "status": "complete_cache_only_matched_deployment_ablation"
+}

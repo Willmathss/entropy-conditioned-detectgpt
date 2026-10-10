@@ -1,0 +1,29 @@
+{
+  "batch_size": 8,
+  "datasets": [
+    "c4",
+    "squad",
+    "xsum",
+    "writing",
+    "pubmed"
+  ],
+  "dtype": "float16",
+  "max_total_tokens": 200,
+  "min_total_tokens": 150,
+  "model_name": "opt-6.7b",
+  "model_path": "models/opt-6.7b",
+  "output_root": "data/train/text",
+  "prompt_tokens": 120,
+  "sampling": {
+    "do_sample": true,
+    "num_beams": 1,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0
+  },
+  "schema_version": 1,
+  "seed": 0,
+  "source_root": "data/train/sources",
+  "torch_version": "2.4.1+cu121",
+  "transformers_version": "4.46.3"
+}

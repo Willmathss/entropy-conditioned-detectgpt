@@ -1,0 +1,16 @@
+dataset,source_model,sampling_model,scoring_model,method,roc_auc,pr_auc,n_human,n_machine,result_file
+c4,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Fast-DetectGPT,0.61998200000000003,0.63193573150241922,500,500,cache/blackbox/llama/results/c4_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.sampling_discrepancy_analytic.json
+c4,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,AdaDetectGPT,0.69303199999999998,0.689149108418461,500,500,cache/blackbox/llama/results/c4_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.AdaDetectGPT.bspline.json
+c4,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Tensor-Rayleigh,0.70428000000000002,0.67986207492284034,500,500,cache/blackbox/llama/results/c4_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.TensorRayleigh.json
+pubmed,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Fast-DetectGPT,0.54967999999999995,0.5371997825978464,500,500,cache/blackbox/llama/results/pubmed_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.sampling_discrepancy_analytic.json
+pubmed,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,AdaDetectGPT,0.59838400000000003,0.5742467192854086,500,500,cache/blackbox/llama/results/pubmed_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.AdaDetectGPT.bspline.json
+pubmed,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Tensor-Rayleigh,0.63394399999999995,0.60869484351796876,500,500,cache/blackbox/llama/results/pubmed_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.TensorRayleigh.json
+squad,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Fast-DetectGPT,0.60533400000000004,0.60110083473837927,500,500,cache/blackbox/llama/results/squad_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.sampling_discrepancy_analytic.json
+squad,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,AdaDetectGPT,0.65952,0.64660848039242347,500,500,cache/blackbox/llama/results/squad_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.AdaDetectGPT.bspline.json
+squad,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Tensor-Rayleigh,0.68442400000000003,0.67524533477374427,500,500,cache/blackbox/llama/results/squad_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.TensorRayleigh.json
+writing,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Fast-DetectGPT,0.75647799999999998,0.74531851639315427,500,500,cache/blackbox/llama/results/writing_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.sampling_discrepancy_analytic.json
+writing,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,AdaDetectGPT,0.79726399999999997,0.78232487835238584,500,500,cache/blackbox/llama/results/writing_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.AdaDetectGPT.bspline.json
+writing,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Tensor-Rayleigh,0.78458399999999995,0.7538394160877383,500,500,cache/blackbox/llama/results/writing_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.TensorRayleigh.json
+xsum,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Fast-DetectGPT,0.57777599999999996,0.57284122836246842,500,500,cache/blackbox/llama/results/xsum_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.sampling_discrepancy_analytic.json
+xsum,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,AdaDetectGPT,0.64470000000000005,0.63372483683100678,500,500,cache/blackbox/llama/results/xsum_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.AdaDetectGPT.bspline.json
+xsum,llama-2-7b,gpt-j-6B,gpt-neo-2.7B,Tensor-Rayleigh,0.66471999999999998,0.64645092767679591,500,500,cache/blackbox/llama/results/xsum_llama-2-7b.gpt-j-6B_gpt-neo-2.7B.TensorRayleigh.json

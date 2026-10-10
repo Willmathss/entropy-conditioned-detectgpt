@@ -1,0 +1,33 @@
+{
+  "dataset": "xsum",
+  "excluded_by_source_index": 1000,
+  "excluded_by_text_fingerprint": 509,
+  "excluded_too_short": 81930,
+  "n_selected": 500,
+  "old_files_checked": [
+    "data/train/sources/xsum.jsonl",
+    "data/train/text/llama-2-7b/xsum.jsonl",
+    "data/train/text/opt-2.7b/xsum.jsonl",
+    "data/train/text/opt-6.7b/xsum.jsonl",
+    "data/train/text/falcon-7b/xsum.jsonl"
+  ],
+  "old_full_text_hashes": 5626,
+  "old_prefix_hashes": 1002,
+  "prefix_words": 48,
+  "seed": 20260729,
+  "selected_manifest_sha256": "7d02d7990d7539e02f3992032941e4acead4f5cef00454e65ec4ddd83d94493b",
+  "source_records_scanned": 204017,
+  "source_spec": {
+    "data_files": "data/raw/datasets/xsum/train-*.parquet",
+    "fields": [
+      "document"
+    ],
+    "id_fields": [
+      "id",
+      "document_id"
+    ],
+    "kind": "parquet",
+    "min_words": 250
+  },
+  "used_source_indices": 1000
+}

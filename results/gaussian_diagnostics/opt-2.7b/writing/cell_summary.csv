@@ -1,0 +1,2 @@
+model,dataset,variant,n_human,n_machine,n_calibration,auroc,variance_ratio_machine_over_human,mean_gap,diagnostic_fit_source,direction_warning,variance_ratio_bootstrap_lo,variance_ratio_bootstrap_hi
+opt-2.7b,writing,full,500,500,500,0.92448,0.7043729860810767,1.8749138431395362,two_fold_test_score_diagnostics,False,0.6117310930292694,0.8032450876875351

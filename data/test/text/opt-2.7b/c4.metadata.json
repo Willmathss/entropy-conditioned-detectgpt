@@ -1,0 +1,23 @@
+{
+  "calibration_manifest_sha256": "efdb54f98e93fa88b0d1f062384910102ab736dfcb114eff8aa324becfa0fb56",
+  "dataset": "c4",
+  "generation": {
+    "batch_size": 8,
+    "max_length": 200,
+    "min_generated_words": 55,
+    "min_length": 150,
+    "prompt_tokens": 120,
+    "sampling_mode": "top_k",
+    "seed": 20260729,
+    "temperature": null,
+    "top_k": 50,
+    "top_p": null
+  },
+  "model_label": "opt-2.7b",
+  "model_path": "models/opt-2.7b",
+  "n_samples": 500,
+  "old_calibration_file": "data/train/text/opt-2.7b/c4.jsonl",
+  "purpose": "independent_frozen_whitebox_test",
+  "schema_version": 1,
+  "source_file": "data/test/sources/c4.jsonl"
+}

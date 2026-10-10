@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+pythonpath = ["src", "experiments"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+

@@ -1,0 +1,88 @@
+{
+  "dataset": "writing",
+  "methods": {
+    "AdaDetectGPT-exact": {
+      "auc": 0.88864,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.202,
+          "type_i_error": 0.006
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.516,
+          "type_i_error": 0.054
+        }
+      },
+      "pauc": 0.6661333333333332
+    },
+    "Fast-DetectGPT-10000": {
+      "auc": 0.8353,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.172,
+          "type_i_error": 0.01
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.448,
+          "type_i_error": 0.07
+        }
+      },
+      "pauc": 0.6073435897435898
+    },
+    "Fast-DetectGPT-analytic": {
+      "auc": 0.835012,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.18,
+          "type_i_error": 0.012
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.45,
+          "type_i_error": 0.07
+        }
+      },
+      "pauc": 0.607425641025641
+    },
+    "Water-Full": {
+      "auc": 0.8979239999999999,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.208,
+          "type_i_error": 0.01
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.484,
+          "type_i_error": 0.034
+        }
+      },
+      "pauc": 0.6892717948717949
+    }
+  },
+  "model": "llama-2-7b",
+  "protocol": {
+    "ada_beta_source": "data/fits/whitebox/llama-2-7b/writing/results.json",
+    "ada_conditional_moments": "exact full-vocabulary",
+    "calibration_source": "cache/whitebox/train",
+    "fast_analytic": "exact full-vocabulary conditional moments",
+    "fast_mc_samples": 10000,
+    "name": "frozen independent test",
+    "no_test_fitting_or_selection": true,
+    "test_human_machine_source": "cache/whitebox/test",
+    "water_basis_frozen_from_development": true,
+    "water_candidate_samples_used": 0,
+    "water_conditional_moments": "exact full-vocabulary",
+    "water_theta_source": "data/fits/whitebox/llama-2-7b/writing/results.json"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "builder_version": "2026.09.09-v1-whitebox-hsc-factorial-ltheta",
+  "completed_cells": 20,
+  "datasets": [
+    "c4",
+    "pubmed",
+    "squad",
+    "writing",
+    "xsum"
+  ],
+  "expected_cells": 20,
+  "full_mode": "locked",
+  "models": [
+    "falcon-7b",
+    "llama-2-7b",
+    "opt-2.7b",
+    "opt-6.7b"
+  ],
+  "primary_score": "T_theta(X)=theta^T U_X",
+  "status": "complete"
+}

@@ -1,0 +1,23 @@
+{
+  "calibration_manifest_sha256": "abd4469d8ab57913583a38e1c667d3cd92ab1502b7da668f638e97bba9756dff",
+  "dataset": "pubmed",
+  "generation": {
+    "batch_size": 8,
+    "max_length": 200,
+    "min_generated_words": 55,
+    "min_length": 150,
+    "prompt_tokens": 120,
+    "sampling_mode": "top_k",
+    "seed": 20260729,
+    "temperature": null,
+    "top_k": 50,
+    "top_p": null
+  },
+  "model_label": "falcon-7b",
+  "model_path": "models/falcon-7b",
+  "n_samples": 500,
+  "old_calibration_file": "data/train/text/falcon-7b/pubmed.jsonl",
+  "purpose": "independent_frozen_whitebox_test",
+  "schema_version": 1,
+  "source_file": "data/test/sources/pubmed.jsonl"
+}

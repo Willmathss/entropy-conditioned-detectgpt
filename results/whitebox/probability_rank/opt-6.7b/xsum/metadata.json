@@ -1,0 +1,66 @@
+{
+  "score_format_version": 3,
+  "protocol": "white-box/source-model/independent",
+  "scoring_region": "full-text",
+  "source_model": "opt-6.7b",
+  "dataset": "xsum",
+  "input_version": "strict-nonllama/full-text",
+  "input_path": "data/test/text/opt-6.7b/xsum.jsonl",
+  "input_sha256": "3144ff716478fbf1826a6b6a2ecdf45d8a1e98b3c1f4fe9852cdbcd90858605d",
+  "n_pairs": 500,
+  "scoring_model_path": "models/opt-6.7b",
+  "scoring_model_files": [
+    {
+      "name": "config.json",
+      "size": 651,
+      "sha256": "05bcf525449fe484fd741ec49620e96e74992c13e46d83327165645a38666ce6"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 685,
+      "sha256": "d1e4185b43a0a06421ab7218d5c1a775350bd13024507b34fbed25dcf6c14c6b"
+    },
+    {
+      "name": "vocab.json",
+      "size": 898822,
+      "sha256": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab"
+    },
+    {
+      "name": "merges.txt",
+      "size": 456318,
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 441,
+      "sha256": "0f3cd5f307a2735cfee31ddf33be88655e8be165ee2cdc26ced966f04258adf0"
+    },
+    {
+      "name": "pytorch_model-00001-of-00002.bin",
+      "size": 9960750957
+    },
+    {
+      "name": "pytorch_model-00002-of-00002.bin",
+      "size": 3356360185
+    }
+  ],
+  "methods": [
+    "Likelihood",
+    "Rank",
+    "LogRank",
+    "Entropy",
+    "LRR"
+  ],
+  "text_fields": [
+    "human_text",
+    "machine_text",
+    "calibration_text"
+  ],
+  "dtype": "float16",
+  "limit_samples": null,
+  "lrr_zero_logrank_policy": {
+    "meaning": "extended-real +infinity (all observed ranks are 1)",
+    "json_sentinel": 1e+300
+  },
+  "trust_remote_code": false
+}

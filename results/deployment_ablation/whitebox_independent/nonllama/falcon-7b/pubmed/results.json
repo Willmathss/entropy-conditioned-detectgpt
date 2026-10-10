@@ -1,0 +1,113 @@
+{
+  "builder_version": "2026.08.25-v1-whitebox-ltheta-vs-stheta",
+  "dataset": "pubmed",
+  "diagnostics": {
+    "calibration_denominator_cv": 0.11009759931703995,
+    "calibration_denominator_mean": 0.978644384675199,
+    "denominator_cv": 0.10908216301062447,
+    "denominator_human_mean": 0.9787005413889805,
+    "denominator_machine_mean": 0.9899979435586824,
+    "denominator_max": 1.3125233792632247,
+    "denominator_mean": 0.9843492424738315,
+    "denominator_median": 0.9786050404144648,
+    "denominator_min": 0.6683856269704369,
+    "denominator_q05": 0.824950030066999,
+    "denominator_q95": 1.1798825502690826,
+    "denominator_std": 0.10737494452691519,
+    "pearson_denominator_token_count": 0.053311794111245016,
+    "pearson_ltheta_stheta": 0.9916532789704621,
+    "pearson_ltheta_token_count": -0.0450481993106982,
+    "pearson_stheta_token_count": -0.047892289063062324,
+    "reference_stheta_max_abs_error": 0.0,
+    "spearman_ltheta_stheta": 0.9934770574770575
+  },
+  "frozen_development_result": "data/fits/whitebox/falcon-7b/pubmed/results.json",
+  "frozen_development_result_sha256": "6eaae043998c355f488bb60ee1eb545fa75e9ecbf35491540d27e6e205b95d3a",
+  "independent_reference_result": "results/whitebox/conditional_baselines/falcon-7b/pubmed/results.json",
+  "metrics": {
+    "L_theta": {
+      "auc": 0.784544,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.072,
+          "type_i_error": 0.004
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.264,
+          "type_i_error": 0.042
+        }
+      },
+      "pauc": 0.5820717948717948,
+      "pr_auc": 0.7824048879542974
+    },
+    "S_theta": {
+      "auc": 0.7787120000000001,
+      "max_fpr": 0.05,
+      "metrics_by_alpha": {
+        "0.01": {
+          "alpha": 0.01,
+          "power": 0.052,
+          "type_i_error": 0.002
+        },
+        "0.05": {
+          "alpha": 0.05,
+          "power": 0.262,
+          "type_i_error": 0.036
+        }
+      },
+      "pauc": 0.5841641025641026,
+      "pr_auc": 0.7764571602947834
+    }
+  },
+  "model": "falcon-7b",
+  "n_calibration": 500,
+  "n_human": 500,
+  "n_machine": 500,
+  "protocol": {
+    "calibration_scores_recomputed_separately": true,
+    "calibration_source": "development human calibration cache",
+    "hyperparameter_selection": "unchanged development selection",
+    "ltheta": "theta^T U_X",
+    "score_epsilon": 1e-08,
+    "stheta": "theta^T U_X / sqrt(max(theta^T V_X theta, epsilon))",
+    "test_fitting_or_reorientation": false,
+    "text_scope": "unchanged full text from independent cache",
+    "theta_training": "unchanged frozen development Water-Full theta"
+  },
+  "schema_version": 1,
+  "selected_basis_spec": {
+    "degree_h": 2,
+    "degree_z": 2,
+    "entropy_clip_high": 0.995,
+    "entropy_clip_low": 0.005,
+    "h_base_knots": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "j_bases": 8,
+    "k_bases": 6,
+    "z_base_knots": [
+      -13.390587837219238,
+      -4.062612241744995,
+      -2.2289381139278412,
+      -1.0803734064102173,
+      -0.3708159018158911,
+      -0.050378021553158764,
+      0.0
+    ]
+  },
+  "selected_config": {
+    "covariance_shrinkage": 0.2,
+    "j_bases": 8,
+    "k_bases": 6,
+    "ridge_lambda": 0.0001,
+    "smooth_lambda": 0.1
+  },
+  "status": "complete_cache_only_matched_deployment_ablation"
+}

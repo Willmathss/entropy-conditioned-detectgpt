@@ -1,0 +1,42 @@
+{
+  "calibration_machine_reference_used_only_for_length_matching": true,
+  "calibration_source_file": "data/fresh/sources/calibration/pubmed.jsonl",
+  "calibration_source_sha256": "6665d6006aae71d2b28b01f5f1ef99e9ecd4582bc19ff57427f3d6dfe31f180b",
+  "completed": 500,
+  "dataset": "pubmed",
+  "generation": {
+    "max_length": 200,
+    "min_generated_words": 55,
+    "min_length": 150,
+    "prompt_tokens": 120,
+    "sampling_mode": "top_k",
+    "seed": 20260902,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0
+  },
+  "generation_runtime": {
+    "batch_size": 4,
+    "device": "cuda:0",
+    "device_map": null,
+    "dtype": "float16",
+    "max_attempts": 20,
+    "slow_tokenizer": false,
+    "trust_remote_code": true
+  },
+  "generation_template_file": null,
+  "generation_template_sha256": null,
+  "generator_script_sha256": "ae7783bdd82b90a5d896006072f11cf077194d8cc781cea3069b01a4eb89be87",
+  "human_test_and_calibration_preprocessing_identical": true,
+  "imported_generator_sha256": "16298724e40a9cb00a4864906017ba6ac6679076b9c674f9b8c10e215be32292",
+  "model_label": "opt-6.7b",
+  "model_path": "models/opt-6.7b",
+  "n_samples": 500,
+  "output_file": "data/fresh/text/opt-6.7b/pubmed.jsonl",
+  "output_sha256": "8592149adbb91c5a4f7873fa8faf0befc6cd6ff943b21a91ecda772598082991",
+  "protocol_name": "fresh-frozen-ltheta-confirmation-20260902",
+  "schema_version": 1,
+  "status": "generated_and_frozen",
+  "test_source_file": "data/fresh/sources/test/pubmed.jsonl",
+  "test_source_sha256": "dfdfff76c2d4475e994525cc0f1401ed17b26a54ebf9a480739d0f66db323c48"
+}

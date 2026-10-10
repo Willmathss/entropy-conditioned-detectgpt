@@ -1,0 +1,202 @@
+{
+  "protocol": "black-box/fixed-surrogate/independent",
+  "score_format_version": 3,
+  "scoring_region": "full-text",
+  "score_direction": "larger means more machine-like",
+  "calibration_protocol": "independent human calibration with finite-sample upper-tail conformal p-values",
+  "source_model": "opt-6.7b",
+  "dataset": "pubmed",
+  "n_pairs": 500,
+  "metadata": {
+    "score_format_version": 3,
+    "protocol": "black-box/fixed-surrogate/independent",
+    "scoring_region": "full-text",
+    "source_model": "opt-6.7b",
+    "dataset": "pubmed",
+    "input_version": "strict-nonllama/full-text",
+    "input_path": "data/test/text/opt-6.7b/pubmed.jsonl",
+    "input_sha256": "6c262eafbc753917e96f64d273cff4a20b59f02bbdf7fe983269e0656a7be6cf",
+    "n_pairs": 500,
+    "scoring_model_path": "models/gpt-neo-2.7b",
+    "scoring_model_files": [
+      {
+        "name": "config.json",
+        "size": 1455,
+        "sha256": "dfdbaa26ba0351210a2f3b72a1d475ebc989a29c43aa5792aec1466ed1e8ee68"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 200,
+        "sha256": "99ad558db2a2e29ab36a12df517e856472029dcdd1bd82f270181a9da034eee0"
+      },
+      {
+        "name": "vocab.json",
+        "size": 798156,
+        "sha256": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+      },
+      {
+        "name": "merges.txt",
+        "size": 456356,
+        "sha256": "fe36cab26d4f4421ed725e10a2e9ddb7f799449c603a96e7f29b5a3c82a95862"
+      },
+      {
+        "name": "model.safetensors",
+        "size": 10672390984
+      }
+    ],
+    "methods": [
+      "likelihood",
+      "entropy",
+      "rank",
+      "logrank",
+      "lrr"
+    ],
+    "text_fields": [
+      "human_text",
+      "machine_text",
+      "calibration_text"
+    ],
+    "max_length": 2048,
+    "dtype": "float16",
+    "limit_samples": null,
+    "lrr_zero_logrank_policy": {
+      "meaning": "extended-real +infinity (all observed ranks are 1)",
+      "json_sentinel": 1e+300
+    },
+    "trust_remote_code": false
+  },
+  "score_definitions": {
+    "likelihood": "mean observed-token log probability",
+    "entropy": "mean predictive entropy",
+    "rank": "negative mean observed-token rank",
+    "logrank": "negative mean log observed-token rank",
+    "lrr": "negative likelihood divided by mean log rank"
+  },
+  "lrr_zero_logrank_counts": {
+    "human_text": 0,
+    "machine_text": 0,
+    "calibration_text": 0
+  },
+  "methods": {
+    "likelihood": {
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "auroc": 0.42235599999999995,
+      "pr_auc": 0.4293049537498312,
+      "pauc_001": 0.0,
+      "pauc_005": 0.0044800000000000005,
+      "tpr_at_fpr_001": 0.0,
+      "tpr_at_fpr_005": 0.012,
+      "human_mean": -2.074959768979605,
+      "machine_mean": -2.1588451635570816,
+      "calibration_mean": -2.0689673112441858,
+      "conformal_fpr_001": 0.008,
+      "conformal_power_001": 0.0,
+      "test_fpr_1pct": 0.008,
+      "power_1pct": 0.0,
+      "threshold_1pct": -1.3120324565615091,
+      "conformal_fpr_005": 0.054,
+      "conformal_power_005": 0.012,
+      "test_fpr_5pct": 0.054,
+      "power_5pct": 0.012,
+      "threshold_5pct": -1.5340311884635478
+    },
+    "entropy": {
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "auroc": 0.595772,
+      "pr_auc": 0.5647153026943367,
+      "pauc_001": 0.0056,
+      "pauc_005": 0.03864000000000001,
+      "tpr_at_fpr_001": 0.02,
+      "tpr_at_fpr_005": 0.076,
+      "human_mean": 2.089945921616408,
+      "machine_mean": 2.188577092750708,
+      "calibration_mean": 2.092630424699104,
+      "conformal_fpr_001": 0.01,
+      "conformal_power_001": 0.012,
+      "test_fpr_1pct": 0.01,
+      "power_1pct": 0.012,
+      "threshold_1pct": 2.8914909091862766,
+      "conformal_fpr_005": 0.064,
+      "conformal_power_005": 0.082,
+      "test_fpr_5pct": 0.064,
+      "power_5pct": 0.082,
+      "threshold_5pct": 2.64337010807687
+    },
+    "rank": {
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "auroc": 0.552778,
+      "pr_auc": 0.5442045338559958,
+      "pauc_001": 0.004399999999999999,
+      "pauc_005": 0.04472,
+      "tpr_at_fpr_001": 0.018,
+      "tpr_at_fpr_005": 0.084,
+      "human_mean": -41.20565080904018,
+      "machine_mean": -36.43658334271448,
+      "calibration_mean": -40.205937661772076,
+      "conformal_fpr_001": 0.006,
+      "conformal_power_001": 0.002,
+      "test_fpr_1pct": 0.006,
+      "power_1pct": 0.002,
+      "threshold_1pct": -5.742424242424243,
+      "conformal_fpr_005": 0.04,
+      "conformal_power_005": 0.074,
+      "test_fpr_5pct": 0.04,
+      "power_5pct": 0.074,
+      "threshold_5pct": -9.833333333333334
+    },
+    "logrank": {
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "auroc": 0.447172,
+      "pr_auc": 0.4437167402600016,
+      "pauc_001": 0.0007999999999999999,
+      "pauc_005": 0.00632,
+      "tpr_at_fpr_001": 0.004,
+      "tpr_at_fpr_005": 0.012,
+      "human_mean": -1.0089253740422752,
+      "machine_mean": -1.0410474892779324,
+      "calibration_mean": -1.0064039639845506,
+      "conformal_fpr_001": 0.008,
+      "conformal_power_001": 0.0,
+      "test_fpr_1pct": 0.008,
+      "power_1pct": 0.0,
+      "threshold_1pct": -0.5940838552250626,
+      "conformal_fpr_005": 0.048,
+      "conformal_power_005": 0.01,
+      "test_fpr_5pct": 0.048,
+      "power_5pct": 0.01,
+      "threshold_5pct": -0.700170517572061
+    },
+    "lrr": {
+      "n_calibration": 500,
+      "n_human_test": 500,
+      "n_machine_test": 500,
+      "auroc": 0.545164,
+      "pr_auc": 0.5236932601914499,
+      "pauc_001": 0.0048000000000000004,
+      "pauc_005": 0.024960000000000003,
+      "tpr_at_fpr_001": 0.01,
+      "tpr_at_fpr_005": 0.052,
+      "human_mean": 2.0714111345912714,
+      "machine_mean": 2.0852104802279334,
+      "calibration_mean": 2.0722626546598404,
+      "conformal_fpr_001": 0.006,
+      "conformal_power_001": 0.006,
+      "test_fpr_1pct": 0.006,
+      "power_1pct": 0.006,
+      "threshold_1pct": 2.3571800019033557,
+      "conformal_fpr_005": 0.034,
+      "conformal_power_005": 0.038,
+      "test_fpr_5pct": 0.034,
+      "power_5pct": 0.038,
+      "threshold_5pct": 2.251716055759122
+    }
+  }
+}

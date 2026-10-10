@@ -1,0 +1,22 @@
+{
+  "path": "results/whitebox/factorial/llama-2-7b/pubmed/scores.npz",
+  "sha256": "d5412bb9c50f2ccd8ed0fbdf8b9175c899e0e91b179fcdeb3b03896cad06b62f",
+  "layout": "factorial",
+  "metadata_path": "results/whitebox/factorial/llama-2-7b/pubmed/results.json",
+  "metadata_sha256": "2f2c0738e899fed2a760793d2c3fda92d7dccfda03c932db5ad8115bbffcf351",
+  "builder_version": "2026.09.09-v1-whitebox-hsc-factorial-ltheta",
+  "run_signature": "c13fe324ea7cd91283aebc5955059f0a1c865061996fee3d094e083ee52e6c7b",
+  "n": {
+    "human": 500,
+    "machine": 500,
+    "calibration": 500
+  },
+  "document_indices": {},
+  "score_declaration": "auto",
+  "version": "2026.09.22-gaussian-diagnostics-v1",
+  "fixed_direction": true,
+  "detector_refitted": false,
+  "gaussian_parameters_fitted_on_test_partitions": true,
+  "test_scores_not_changed": true,
+  "paired_partitions": true
+}

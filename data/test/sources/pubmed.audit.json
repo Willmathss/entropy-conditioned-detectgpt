@@ -1,0 +1,31 @@
+{
+  "dataset": "pubmed",
+  "excluded_by_source_index": 1000,
+  "excluded_by_text_fingerprint": 6,
+  "excluded_too_short": 10462,
+  "n_selected": 500,
+  "old_files_checked": [
+    "data/train/sources/pubmed.jsonl",
+    "data/train/text/llama-2-7b/pubmed.jsonl",
+    "data/train/text/opt-2.7b/pubmed.jsonl",
+    "data/train/text/opt-6.7b/pubmed.jsonl",
+    "data/train/text/falcon-7b/pubmed.jsonl"
+  ],
+  "old_full_text_hashes": 5476,
+  "old_prefix_hashes": 1002,
+  "prefix_words": 48,
+  "seed": 20260729,
+  "selected_manifest_sha256": "3f5796262b5912c3af3fda01a168cdc3f0040a87208e6388e1a4273d3c7b0fe7",
+  "source_records_scanned": 61249,
+  "source_spec": {
+    "data_files": "data/raw/datasets/pubmedqa/pqa_unlabeled/train-*.parquet",
+    "field": "context.contexts",
+    "id_fields": [
+      "pubid",
+      "id"
+    ],
+    "kind": "pubmed_qa_contexts",
+    "min_words": 150
+  },
+  "used_source_indices": 1000
+}

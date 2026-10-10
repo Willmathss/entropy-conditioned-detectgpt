@@ -1,0 +1,23 @@
+{
+  "calibration_manifest_sha256": "5326ac9c8fd87f606bd177f75488b8137c93e126e51f95255156531d7d096d3a",
+  "dataset": "xsum",
+  "generation": {
+    "batch_size": 8,
+    "max_length": 200,
+    "min_generated_words": 55,
+    "min_length": 150,
+    "prompt_tokens": 120,
+    "sampling_mode": "top_k",
+    "seed": 20260729,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0
+  },
+  "model_label": "llama-2-7b",
+  "model_path": "models/llama-2-7b",
+  "n_samples": 500,
+  "old_calibration_file": "data/train/text/llama-2-7b/xsum.jsonl",
+  "purpose": "independent_frozen_whitebox_test",
+  "schema_version": 1,
+  "source_file": "data/test/sources/xsum.jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "path": "results/whitebox/factorial/opt-6.7b/writing/scores.npz",
+  "sha256": "c730e74faa3b157c80fdd8dd03fab9749d3bca944b1f92a819ac293d3a828f02",
+  "layout": "factorial",
+  "metadata_path": "results/whitebox/factorial/opt-6.7b/writing/results.json",
+  "metadata_sha256": "5b71e0108356701e0eb261db68cf9aaac9961c993df77068cdf196bbd243afd1",
+  "builder_version": "2026.09.09-v1-whitebox-hsc-factorial-ltheta",
+  "run_signature": "ca7ea98623d761c190db1710ee6f811b0e5a1a834e8f71e1ddcc5f26cdb2ff47",
+  "n": {
+    "human": 500,
+    "machine": 500,
+    "calibration": 500
+  },
+  "document_indices": {},
+  "score_declaration": "auto",
+  "version": "2026.09.22-gaussian-diagnostics-v1",
+  "fixed_direction": true,
+  "detector_refitted": false,
+  "gaussian_parameters_fitted_on_test_partitions": true,
+  "test_scores_not_changed": true,
+  "paired_partitions": true
+}

@@ -1,0 +1,58 @@
+{
+  "score_format_version": 3,
+  "protocol": "black-box/fixed-surrogate/independent",
+  "scoring_region": "full-text",
+  "source_model": "opt-2.7b",
+  "dataset": "squad",
+  "input_version": "strict-nonllama/full-text",
+  "input_path": "data/test/text/opt-2.7b/squad.jsonl",
+  "input_sha256": "8f13a41e053be639c5365d5d812ab9bbd8a33ce4b5d3d525c03f32410b7f8527",
+  "n_pairs": 500,
+  "scoring_model_path": "models/gpt-neo-2.7b",
+  "scoring_model_files": [
+    {
+      "name": "config.json",
+      "size": 1455,
+      "sha256": "dfdbaa26ba0351210a2f3b72a1d475ebc989a29c43aa5792aec1466ed1e8ee68"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 200,
+      "sha256": "99ad558db2a2e29ab36a12df517e856472029dcdd1bd82f270181a9da034eee0"
+    },
+    {
+      "name": "vocab.json",
+      "size": 798156,
+      "sha256": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+    },
+    {
+      "name": "merges.txt",
+      "size": 456356,
+      "sha256": "fe36cab26d4f4421ed725e10a2e9ddb7f799449c603a96e7f29b5a3c82a95862"
+    },
+    {
+      "name": "model.safetensors",
+      "size": 10672390984
+    }
+  ],
+  "methods": [
+    "likelihood",
+    "entropy",
+    "rank",
+    "logrank",
+    "lrr"
+  ],
+  "text_fields": [
+    "human_text",
+    "machine_text",
+    "calibration_text"
+  ],
+  "max_length": 2048,
+  "dtype": "float16",
+  "limit_samples": null,
+  "lrr_zero_logrank_policy": {
+    "meaning": "extended-real +infinity (all observed ranks are 1)",
+    "json_sentinel": 1e+300
+  },
+  "trust_remote_code": false
+}

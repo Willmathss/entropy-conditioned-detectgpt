@@ -1,0 +1,2 @@
+model,dataset,variant,n_human,n_machine,n_calibration,auroc,variance_ratio_machine_over_human,mean_gap,diagnostic_fit_source,direction_warning,variance_ratio_bootstrap_lo,variance_ratio_bootstrap_hi
+llama-2-7b,squad,full,500,500,500,0.7515919999999999,0.8531761441814384,0.8968951503029526,two_fold_test_score_diagnostics,False,0.718375764306952,1.006968385699981

@@ -1,0 +1,22 @@
+{
+  "batch_size": 8,
+  "datasets": [
+    "c4",
+    "squad",
+    "xsum",
+    "writing",
+    "pubmed"
+  ],
+  "dtype": "bfloat16",
+  "max_total_tokens": 200,
+  "min_total_tokens": 150,
+  "model_name": "llama-2-7b",
+  "model_path": "models/llama-2-7b",
+  "output_root": "data/train/text",
+  "prompt_tokens": 120,
+  "seed": 0,
+  "source_root": "data/train/sources",
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0
+}

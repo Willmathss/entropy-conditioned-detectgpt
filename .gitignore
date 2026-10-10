@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak*
+
+# Model and dataset material
+checkpoints/
+models/
+cache/
+third_party/
+data/raw/
+data/legacy/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local experiment outputs (curated paper outputs under results/ are tracked)
+outputs/
+runs/
+wandb/
+
+# Keep only the paper's method pipeline image in the public repository.
+figures/*
+!figures/method_pipeline.png
+results/**/*.png
+results/**/*.pdf

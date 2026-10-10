@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "version": "2026.09.22-gaussian-diagnostics-v1",
+  "args": {
+    "scores_root": "results/whitebox/factorial",
+    "output_root": "data/gaussian_diagnostics_whitebox_20260922",
+    "models": "falcon-7b,llama-2-7b,opt-2.7b,opt-6.7b",
+    "datasets": "c4,pubmed,squad,writing,xsum",
+    "variant": "full",
+    "alphas": [
+      0.01,
+      0.05
+    ],
+    "repeats": 10,
+    "normality_reps": 999,
+    "bootstrap_reps": 1000,
+    "seed": 20260922,
+    "min_documents": 500,
+    "paired": true,
+    "fit_scores_root": null,
+    "score_declaration": "auto",
+    "no_plots": false,
+    "overwrite": false,
+    "self_test": false
+  },
+  "n_cells": 20,
+  "python": "3.10.19",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "interpretation": "Scalar frozen-score diagnostics, not a proof of multivariate Gaussianity, shared covariance, MCLT or an optimal projection. Default Gaussian fits use held-out score partitions, not original detector training scores.",
+  "uncertainty": "Variance-ratio CI is document bootstrap; operating-point Wilson intervals condition on the fixed calibration set. Repeated diagnostic partitions are dependent; no across-repeat CI is claimed."
+}
